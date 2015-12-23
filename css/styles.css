@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #FAFAFA;
+	font-size: 15px;
+}
+
+.search-container{
+	width: 400px;
+	margin: auto;
+	background-color:rgba(255,255,255,0.3);
+	border-radius: 2px;
+	padding-left: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.search-container .search-icon{
+	height: 24px;
+	width: 24px;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+
+.search-input{
+	height: 36px;
+	width: 100%;
+	background-color: transparent;
+	border:none;
+	color: #FFF;
+	outline:none;
+}
+
+
+.search-input::-webkit-input-placeholder {
+  color: #FFF;
+}
+
+.toolbar {
+	background-color: #009688;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+
+.content-header{
+	border-bottom: 1px solid #DDD;
+}
+
+.content-header h1 {
+	text-align: center;
+	margin: 10px;
+	font-weight: 500;
+}
+
+.tabs{
+	margin: 0 auto;
+	width: 600px;
+}
+
+.tabs li{
+	display: inline-block;
+	padding: 12px 30px;
+	color: #777;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.tabs li.active{
+	border-bottom: 3px solid #FF4081;
+}
+
+.message{
+	text-align: center;
+	padding-top: 50px;
+	color: rgba(0,0,0,.4);
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: #FFF;
+	border: 1px solid #DEDEDE;
+}
+
+table{
+	width: 100%;
+}
+
+thead th{
+	font-weight: 500;
+	text-transform: uppercase;
+}
+thead th, tbody td{
+	text-align: left;
+	padding: 10px;
+}

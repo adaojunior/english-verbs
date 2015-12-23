@@ -1,0 +1,24 @@
+{
+    "name": "English Verbs",
+    "description": "English verb conjugation.",
+    "version": "0.2.0",
+    "author":"Adão Junior",
+    "offline_enabled": true,
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    },
+    "icons": {
+        "16":"img/icon-16.png",
+        "20":"img/icon-20.png",
+        "24":"img/icon-24.png",
+        "32":"img/icon-32.png",
+        "48":"img/icon-48.png",
+        "64":"img/icon-64.png",
+        "128":"img/icon-128.png",
+        "256":"img/icon-256.png",
+        "512":"img/icon-512.png"
+    }
+}
