@@ -1,3 +1,4 @@
+var service,tracker;
 
 Vue.component('tabs', {
   props:['tense'],
@@ -60,6 +61,16 @@ new Vue({
     content: 'app-loading'
   },
   ready: function(){
+    service = analytics.getService('english-verbs-app');
+
+    service.getConfig().addCallback(function(config){
+      if(!config.isTrackingPermitted()){
+          config.setTrackingPermitted(true);
+      }
+    });
+
+    tracker = service.getTracker('UA-71715642-2');
+    tracker.sendAppView('MainView');
     Api.inicialize().then(() => {
       this.search("be");
     });
@@ -71,9 +82,11 @@ new Vue({
         this.conjugation = new $api.Conjugation(word);
         this.tense = 'simple';
         this.content = "app-content";
+        tracker.sendEvent('Verbs','Conjugate', word);
       }
       catch(error){
         this.content = "app-not-found";
+        tracker.sendEvent('Content','Not-Found', word);
       }
     }
   },
@@ -83,6 +96,7 @@ new Vue({
     },
     'tense-changed':function(tense){
       this.tense = tense;
+      tracker.sendEvent('Tense Selected', tense);
     }
   }
 });
