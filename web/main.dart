@@ -12,7 +12,7 @@ const String version = '0.3.0';
 main() => bootstrap(
     AppComponent,[
     ROUTER_PROVIDERS,
-    provide(APP_BASE_HREF, useValue: window.location.pathname),
+    provide(APP_BASE_HREF, useValue: '/'),
     provide(LocationStrategy, useClass: HashLocationStrategy),
     provide(Analytics,useValue: new AnalyticsHtml(id,name,version))
 ]);

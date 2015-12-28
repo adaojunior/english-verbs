@@ -3,6 +3,8 @@ body{
 	font-family: 'Roboto', sans-serif;
 	background-color: #FAFAFA;
 	font-size: 15px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .container{
