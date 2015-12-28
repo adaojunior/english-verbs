@@ -1,0 +1,29 @@
+<div>
+    <div class="content-header">
+        <h1>To {{infinitive}}</h1>
+        <ul class="tabs">
+            <li *ngFor="#row of tenses" (click)="tense = row['enum']" [ngClass]="{active: row['enum'] == tense}">
+                {{row['value']}}
+            </li>
+        </ul>
+    </div>
+    <section class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Present</th>
+                    <th>Past</th>
+                    <th>Future</th>
+                    <th>Conditional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr  *ngFor="#d of data">
+                    <td *ngFor="#v of d">
+                        {{v}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>

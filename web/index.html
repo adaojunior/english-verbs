@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>English Verbs</title>
+    <script async src="main.dart" type="application/dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    -->
+    <style>
+        .loader {
+            margin: 60px auto;
+            font-size: 10px;
+            position: relative;
+            text-indent: -9999em;
+            border-top: .6em solid rgba(0, 150, 136, 0.8);
+            border-right: .6em solid rgba(0, 150, 136, 0.8);
+            border-bottom: .6em solid rgba(0, 150, 136, 0.8);
+            border-left: .6em solid rgba(0, 150, 136, 0.4);
+            -webkit-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-animation: load8 1.1s infinite linear;
+            animation: load8 1.1s infinite linear;
+        }
+        .loader,
+        .loader:after {
+            border-radius: 50%;
+            width: 4em;
+            height: 4em;
+        }
+        @-webkit-keyframes load8 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes load8 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .toolbar {
+            background-color: #009688;
+            padding: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <app>
+        <div style="text-align: center;">
+            <div class="toolbar" style="min-height: 36px;margin-bottom: 60px;">
+            </div>
+            <div class="loader">Loading...</div>
+        </div>
+    </app>
+</body>
+</html>

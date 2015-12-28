@@ -1,0 +1,31 @@
+.content-header{
+    background-color: #009688;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.26);
+}
+.content-header h1 {
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    color: #FFF;
+}
+.container {
+    padding: 20px 15px;
+}
+.tabs{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.tabs li{
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.tabs li.active{
+    border-bottom: 3px solid #FF4081;
+}

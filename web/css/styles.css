@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #FAFAFA;
+	font-size: 15px;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: #FFF;
+	border: 1px solid #DEDEDE;
+}
+
+table{
+	width: 100%;
+}
+
+thead th{
+	font-weight: 500;
+	text-transform: uppercase;
+}
+thead th, tbody td{
+	text-align: left;
+	padding: 10px;
+}
