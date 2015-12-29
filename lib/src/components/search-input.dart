@@ -38,7 +38,7 @@ import 'dart:html' show KeyboardEvent, InputElement;
           background-color:rgba(255,255,255,1);
         }
         .search-container.focused .search-input::-webkit-input-placeholder {
-          color: #333;
+          color: #212121;
         }
         .search-container .search-icon{
           height: 24px;
@@ -46,14 +46,16 @@ import 'dart:html' show KeyboardEvent, InputElement;
           margin-top: 6px;
           margin-right: 10px;
         }
-
         .search-input{
           height: 36px;
           width: 100%;
           background-color: transparent;
           border:none;
-          color: #212121;
+          color: #FFF;
           outline:none;
+        }
+        .search-input:focus{
+          color: #212121;
         }
       '''
     ]
