@@ -35,7 +35,7 @@ class AppComponent {
   Analytics _analytics;
 
   AppComponent(this._router,Analytics analytics){
-    analytics.sendEvent('page-load','initial-load',label: window.location.pathname);
+    analytics.sendEvent('page-load',window.location.pathname);
   }
 
   onSubmit(String value){
