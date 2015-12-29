@@ -18,15 +18,8 @@ import 'dart:html' show window;
   styles: const [
     '''
       .toolbar {
-          background-color: #009688;
+          background-color: #00796B;
           padding: 10px 0;
-      }
-
-      .toolbar h1{
-          text-align: center;
-          margin: 15px;
-          font-weight: 500;
-          color: #FFF
       }
     '''
   ]

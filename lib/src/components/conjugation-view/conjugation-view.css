@@ -5,9 +5,10 @@
 .content-header h1 {
     text-align: center;
     margin: 0;
-    padding: 5px 0;
+    padding: 15px 0 10px;
     font-weight: 500;
     color: #FFF;
+    font-size: 36px;
 }
 .container {
     padding: 20px 15px;
