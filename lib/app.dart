@@ -1,4 +1,4 @@
-import 'package:angular2/angular2.dart' show Component, OnInit;
+import 'package:angular2/angular2.dart' show Component, OnInit, ViewEncapsulation;
 import 'package:angular2/router.dart' show RouteConfig, Route, ROUTER_DIRECTIVES, RouteParams, Router;
 import 'src/components/search-input.dart';
 import 'src/components/conjugation-view/conjugation-view.dart';
@@ -9,20 +9,13 @@ import 'dart:html' show window;
 @Component(
     selector: 'app',
     directives: const [SearchInput,ROUTER_DIRECTIVES],
+    encapsulation: ViewEncapsulation.None,
     template: '''
     <nav class="toolbar">
       <search-input (onChange)="onSubmit(\$event)"></search-input>
     </nav>
     <router-outlet></router-outlet>
-  ''',
-  styles: const [
-    '''
-      .toolbar {
-          background-color: #00796B;
-          padding: 10px 0;
-      }
-    '''
-  ]
+  '''
 )
 @RouteConfig(const [
   const Route(path: '/', component: ConjugationView, name: 'ConjugationView', useAsDefault: true),

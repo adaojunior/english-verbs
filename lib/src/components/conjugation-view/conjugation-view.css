@@ -15,11 +15,14 @@
 }
 .tabs{
     margin: 0 auto;
-    width: 600px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .tabs li{
-    display: inline-block;
+    display: inline-table;
     padding: 12px 30px;
     font-weight: 500;
     text-transform: uppercase;

@@ -7,14 +7,44 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.toolbar {
+	background-color: #00796B;
+	padding: 10px 0px;
+	display: flex;
+}
+
+.toolbar search-input {
+	width: 400px;
+	margin: auto;
+}
+
+@media (max-width: 600px) {
+	.toolbar search-input {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 100%;
+	}
+}
+
 .container{
 	width: 800px;
 	margin: auto;
 	margin-top: 30px;
 	background-color: #FFF;
 	border: 1px solid #DEDEDE;
+	margin-bottom: 25px;
 }
 
+@media (max-width: 850px) {
+    .container{
+        width: calc(100% - 50px);
+    }
+}
+@media (max-width: 500px) {
+	.container{
+		width: calc(100% - 50px);
+	}
+}
 table{
 	width: 100%;
 }

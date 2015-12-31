@@ -8,7 +8,7 @@
         </ul>
     </div>
     <section class="container">
-        <table>
+        <table *ngIf="isSmallScreen">
             <thead>
                 <tr>
                     <th>Present</th>
@@ -23,6 +23,34 @@
                         {{v}}
                     </td>
                 </tr>
+            </tbody>
+        </table>
+        <table *ngIf="!isSmallScreen">
+            <thead>
+                <tr>
+                    <th width="50%">Present</th>
+                    <th width="50%">Past</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr  *ngFor="#d of data">
+                <td>{{d.elementAt(0)}}</td>
+                <td>{{d.elementAt(1)}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <table *ngIf="!isSmallScreen" style="margin-top: 15px;">
+            <thead>
+            <tr>
+                <th width="50%">Future</th>
+                <th width="50%">Conditional</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr  *ngFor="#d of data">
+                <td>{{d.elementAt(2)}}</td>
+                <td>{{d.elementAt(3)}}</td>
+            </tr>
             </tbody>
         </table>
     </section>

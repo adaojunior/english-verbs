@@ -1,16 +1,18 @@
-import 'package:angular2/angular2.dart' show Component, View, NgFor, NgClass;
+import 'package:angular2/angular2.dart' show Component, View, NgFor, NgClass,NgIf, OnDestroy;
 import 'package:angular2/router.dart' show RouteParams, Router;
 import 'package:english-verbs/app.services.dart' show ConjugationService, Conjugation, Tense, Person, Plurality, Time;
 import 'package:usage/usage.dart' show Analytics;
+import 'dart:html' show MediaQueryList, window;
+import 'dart:async' show StreamSubscription;
 
 @Component(
     selector: 'conjugation-view',
     templateUrl: 'conjugation-view.html',
     styleUrls: const ['conjugation-view.css'],
-    directives: const [NgFor,NgClass],
+    directives: const [NgFor,NgClass,NgIf],
     providers: const [ConjugationService]
 )
-class ConjugationView {
+class ConjugationView implements OnDestroy {
 
     RouteParams _params;
     Router _router;
@@ -19,6 +21,8 @@ class ConjugationView {
     String infinitive;
     Tense _tense;
     Conjugation _conjugation;
+    bool isSmallScreen;
+    StreamSubscription _mediaQuerySubscription;
 
     List tenses = [
         {'value': 'Simple','enum': Tense.Simple},
@@ -50,9 +54,23 @@ class ConjugationView {
             _conjugation = _conjugator.find(_params.get('verb'));
             this.infinitive = _conjugation.infinitive;
             tense = Tense.Simple;
+            _getScreenSize();
         }
         catch(e){
             _router.navigate(['VerbNotFoundView',{'search':_params.get('verb')}]);
         }
     }
+
+    _getScreenSize(){
+        MediaQueryList query = window.matchMedia('(min-width: 600px)');
+        this.isSmallScreen = query.matches;
+        _mediaQuerySubscription = query.onChange.listen((e){
+            this.isSmallScreen = query.matches;
+        });
+    }
+
+    ngOnDestroy(){
+        _mediaQuerySubscription?.cancel();
+    }
 }
+

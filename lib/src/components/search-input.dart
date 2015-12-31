@@ -19,8 +19,7 @@ import 'dart:html' show KeyboardEvent, InputElement;
     ''',
     styles: const [
       '''
-        .search-container{
-          width: 400px;
+        .search-container {
           margin: auto;
           background-color:rgba(255,255,255,0.1);
           border-radius: 2px;
