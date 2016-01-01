@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="img/icon-16.png">
     <meta name="theme-color" content="#00695C">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="manifest" href="manifest.json">
     <style>
         .loader {
             margin: 60px auto;
@@ -61,5 +62,15 @@
             <div class="loader">Loading...</div>
         </div>
     </app>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                    .then(function(registration) {
+                        console.log('ServiceWorker registration successful with scope: ',    registration.scope);
+                    }).catch(function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        }
+    </script>
 </body>
 </html>
