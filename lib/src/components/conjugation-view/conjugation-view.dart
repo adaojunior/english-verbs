@@ -23,6 +23,7 @@ class ConjugationView implements OnDestroy {
     Conjugation _conjugation;
     bool isSmallScreen;
     StreamSubscription _mediaQuerySubscription;
+    Analytics _analytics;
 
     List tenses = [
         {'value': 'Simple','enum': Tense.Simple},
@@ -38,15 +39,21 @@ class ConjugationView implements OnDestroy {
     set tense (Tense tense){
         this._tense = tense;
         this._data = _conjugation.getConjugationTable(tense);
+        this._analytics.sendEvent(
+            _params.get('verb'),
+            'change-tense',
+            label: tense.toString(),
+            value: 1
+        );
     }
 
-    ConjugationView(this._params, this._router,this._conjugator, Analytics analytics){
+    ConjugationView(this._params, this._router,this._conjugator, this._analytics){
         if(_params.get('verb') == null)
             _router.navigate(['ConjugationView',{'verb':'be'}]);
         else
             _boot();
 
-        analytics.sendScreenView('Conjugation');
+        _analytics.sendScreenView("Conjugation");
     }
 
     _boot(){
@@ -55,9 +62,16 @@ class ConjugationView implements OnDestroy {
             this.infinitive = _conjugation.infinitive;
             tense = Tense.Simple;
             _getScreenSize();
+            this._analytics.sendEvent(
+                'Page',
+                'vizualization',
+                label: _params.get('verb'),
+                value: 1
+            );
         }
         catch(e){
             _router.navigate(['VerbNotFoundView',{'search':_params.get('verb')}]);
+            this._analytics.sendEvent('Page','not-found',label: _params.get('verb'),value: 1);
         }
     }
 

@@ -17,8 +17,20 @@
     margin: 0 auto;
     padding: 0;
     display: flex;
-    justify-content: center;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+
+@media (min-width: 600px) {
+    .tabs{
+        justify-content: center;
+    }
+}
+
+.tabs::-webkit-scrollbar {
+    display: none;
 }
 
 .tabs li{

@@ -2,10 +2,11 @@
 <html>
 <head>
     <title>English Verbs</title>
+    <base href="/">
     <script async src="main.dart" type="application/dart"></script>
     <script async src="packages/browser/dart.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
-    <link href='css/styles.css' rel='stylesheet' type='text/css'>
+    <link href='/css/styles.css' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="img/icon-16.png">
     <meta name="theme-color" content="#00695C">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -63,12 +64,15 @@
         </div>
     </app>
     <script>
-        if ('serviceWorker' in navigator) {
+        if(window.location.hostname == 'localhost'){
+            console.info("Dev environment detected, service worker will not be loaded.");
+        }
+        else if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js')
-                    .then(function(registration) {
-                        console.log('ServiceWorker registration successful with scope: ',    registration.scope);
-                    }).catch(function(err) {
-                console.log('ServiceWorker registration failed: ', err);
+            .then(function(registration) {
+                console.info('ServiceWorker registration successful with scope: ',    registration.scope);
+            }).catch(function(err) {
+                console.warn('ServiceWorker registration failed: ', err);
             });
         }
     </script>

@@ -27,15 +27,33 @@ class AppComponent {
   Router _router;
   Analytics _analytics;
 
-  AppComponent(this._router,Analytics analytics){
-    analytics.sendEvent('page-load',window.location.pathname);
+  AppComponent(this._router,this._analytics){
+    _analytics.sendEvent('page-load',window.location.pathname);
+    _registerRef();
+    window.addEventListener('beforeinstallprompt',_beforeInstallPrompt);
+  }
+
+  _beforeInstallPrompt(e) => _analytics.sendEvent(
+      'Homescreen installation',
+      'beforeinstallprompt'
+  );
+
+  _registerRef(){
+    if(Uri.base.queryParameters.containsKey('ref')){
+      _analytics.sendEvent(
+          'Page',
+          'reference',
+          label: Uri.base.queryParameters['ref'],
+          value: 1
+      );
+    }
   }
 
   onSubmit(String value){
     value = value.trim().toLowerCase();
     if(value.length > 0){
       _router.navigate(['ConjugationView',{'verb':value}]);
-      _analytics.sendEvent('search','verb-search',label: value);
+      _analytics.sendEvent('Search','verb',label: value,value: 1);
     }
   }
 }

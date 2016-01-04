@@ -23,6 +23,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/?ref=homescreen",
   "display": "standalone"
 }
