@@ -1,18 +1,17 @@
-import 'package:angular2/angular2.dart' show Component, View, NgFor, NgClass,NgIf, OnDestroy;
+import 'package:angular2/angular2.dart' show Component, NgFor, NgClass,NgIf;
 import 'package:angular2/router.dart' show RouteParams, Router;
 import 'package:english-verbs/app.services.dart' show ConjugationService, Conjugation, Tense, Person, Plurality, Time;
 import 'package:usage/usage.dart' show Analytics;
-import 'dart:html' show MediaQueryList, window;
-import 'dart:async' show StreamSubscription;
+import 'package:ng_mediaquery/ng_mediaquery.dart';
 
 @Component(
     selector: 'conjugation-view',
     templateUrl: 'conjugation-view.html',
     styleUrls: const ['conjugation-view.css'],
-    directives: const [NgFor,NgClass,NgIf],
+    directives: const [NgFor,NgClass,NgIf,MediaQuery],
     providers: const [ConjugationService]
 )
-class ConjugationView implements OnDestroy {
+class ConjugationView {
 
     RouteParams _params;
     Router _router;
@@ -21,8 +20,7 @@ class ConjugationView implements OnDestroy {
     String infinitive;
     Tense _tense;
     Conjugation _conjugation;
-    bool isSmallScreen;
-    StreamSubscription _mediaQuerySubscription;
+    bool isSmallScreen = false;
     Analytics _analytics;
 
     List tenses = [
@@ -61,7 +59,6 @@ class ConjugationView implements OnDestroy {
             _conjugation = _conjugator.find(_params.get('verb'));
             this.infinitive = _conjugation.infinitive;
             tense = Tense.Simple;
-            _getScreenSize();
             this._analytics.sendEvent(
                 'Page',
                 'vizualization',
@@ -73,18 +70,6 @@ class ConjugationView implements OnDestroy {
             _router.navigate(['VerbNotFoundView',{'search':_params.get('verb')}]);
             this._analytics.sendEvent('Page','not-found',label: _params.get('verb'),value: 1);
         }
-    }
-
-    _getScreenSize(){
-        MediaQueryList query = window.matchMedia('(min-width: 600px)');
-        this.isSmallScreen = query.matches;
-        _mediaQuerySubscription = query.onChange.listen((e){
-            this.isSmallScreen = query.matches;
-        });
-    }
-
-    ngOnDestroy(){
-        _mediaQuerySubscription?.cancel();
     }
 }
 

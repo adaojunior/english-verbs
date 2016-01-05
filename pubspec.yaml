@@ -5,6 +5,7 @@ dependencies:
   browser: ^0.10.0
   dart_to_js_script_rewriter: ^0.1.0
   usage: ^1.0.1
+  ng_mediaquery: ^0.1.2
 dev_dependencies:
   pub_serve_rewrites: ^0.0.1
 transformers:
