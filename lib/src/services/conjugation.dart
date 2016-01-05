@@ -127,7 +127,16 @@ class _BeConjugation extends Conjugation with _DefaultConjugationTable {
 
 @Injectable()
 class ConjugationService {
+
+  _normalize(String search){
+    search = search.trim().toLowerCase();
+    if(search.startsWith('to ') && search.length > 3)
+      search = search.substring(3,search.length);
+    return search;
+  }
+
   Conjugation find(String verb) {
+    verb = _normalize(verb);
     Map<String, String> data = this._findByInfinitive(verb.toLowerCase());
     if (data['1'] == 'be') {
       return new _BeConjugation(data);
