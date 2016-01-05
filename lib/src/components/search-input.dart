@@ -57,15 +57,13 @@ import 'dart:html' show KeyboardEvent, InputElement;
           color: #212121;
         }
       '''
-    ]
-)
+    ])
 class SearchInput {
-
   @Output() EventEmitter onChange = new EventEmitter();
 
   bool focused = false;
 
-  submit(KeyboardEvent event){
+  submit(KeyboardEvent event) {
     InputElement input = event.target;
     input.blur();
     onChange.add(input.value);

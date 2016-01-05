@@ -15,15 +15,14 @@ import 'package:usage/usage.dart' show Analytics;
           color: rgba(0,0,0,.4);
         }
       '''
-    ]
-)
+    ])
 class VerbNotFoundView {
-
   String message = 'Your search did not match any verbs.';
 
-  VerbNotFoundView(RouteParams params,Analytics analytics){
-    if(params.params.containsKey('search')){
-      this.message = "Your search - ${params.get('search')} -did not match any verbs.";
+  VerbNotFoundView(RouteParams params, Analytics analytics) {
+    if (params.params.containsKey('search')) {
+      this.message =
+          "Your search - ${params.get('search')} -did not match any verbs.";
     }
     analytics.sendScreenView('PageNotFound::${params.get('search')}');
   }

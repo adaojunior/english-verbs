@@ -1,13 +1,7 @@
 library app.src.services.verbs;
 
 final List _verbs = [
-  {
-    "1": "abide",
-    "2": "abode",
-    "3": "abiding",
-    "4": "abode",
-    "5": "abides"
-  },
+  {"1": "abide", "2": "abode", "3": "abiding", "4": "abode", "5": "abides"},
   {
     "1": "beget",
     "2": "begotten",
@@ -29,27 +23,9 @@ final List _verbs = [
     "4": "beseeched",
     "5": "beseeches"
   },
-  {
-    "1": "bide",
-    "2": "bided",
-    "3": "biding",
-    "4": "bode",
-    "5": "bides"
-  },
-  {
-    "1": "choke",
-    "2": "choked",
-    "3": "choking",
-    "4": "choked",
-    "5": "chokes"
-  },
-  {
-    "1": "cleave",
-    "2": "cleft",
-    "3": "cleaving",
-    "4": "cleft",
-    "5": "cleaves"
-  },
+  {"1": "bide", "2": "bided", "3": "biding", "4": "bode", "5": "bides"},
+  {"1": "choke", "2": "choked", "3": "choking", "4": "choked", "5": "chokes"},
+  {"1": "cleave", "2": "cleft", "3": "cleaving", "4": "cleft", "5": "cleaves"},
   {
     "1": "conceptualize",
     "2": "conceptualized",
@@ -92,20 +68,8 @@ final List _verbs = [
     "4": "foretold",
     "5": "foretells"
   },
-  {
-    "1": "geld",
-    "2": "gelded",
-    "3": "gelding",
-    "4": "gelded",
-    "5": "gelds"
-  },
-  {
-    "1": "gild",
-    "2": "gilded",
-    "3": "gilds",
-    "4": "gilding",
-    "5": "gild"
-  },
+  {"1": "geld", "2": "gelded", "3": "gelding", "4": "gelded", "5": "gelds"},
+  {"1": "gild", "2": "gilded", "3": "gilds", "4": "gilding", "5": "gild"},
   {
     "1": "handwrite",
     "2": "handwritten",
@@ -141,13 +105,7 @@ final List _verbs = [
     "4": "motivated",
     "5": "motivates"
   },
-  {
-    "1": "move",
-    "2": "moved",
-    "3": "moving",
-    "4": "moved",
-    "5": "moves"
-  },
+  {"1": "move", "2": "moved", "3": "moving", "4": "moved", "5": "moves"},
   {
     "1": "overdraw",
     "2": "overdrawn",
@@ -176,34 +134,10 @@ final List _verbs = [
     "4": "referred",
     "5": "refers"
   },
-  {
-    "1": "rely",
-    "2": "relied",
-    "3": "relying",
-    "4": "relied",
-    "5": "relies"
-  },
-  {
-    "1": "shit",
-    "2": "shit",
-    "3": "shitting",
-    "4": "shit",
-    "5": "shits"
-  },
-  {
-    "1": "shoe",
-    "2": "shodden",
-    "3": "shoeing",
-    "4": "shod",
-    "5": "shoes"
-  },
-  {
-    "1": "smite",
-    "2": "smitten",
-    "3": "smiting",
-    "4": "smote",
-    "5": "smites"
-  },
+  {"1": "rely", "2": "relied", "3": "relying", "4": "relied", "5": "relies"},
+  {"1": "shit", "2": "shit", "3": "shitting", "4": "shit", "5": "shits"},
+  {"1": "shoe", "2": "shodden", "3": "shoeing", "4": "shod", "5": "shoes"},
+  {"1": "smite", "2": "smitten", "3": "smiting", "4": "smote", "5": "smites"},
   {
     "1": "subtract",
     "2": "subtracted",
@@ -211,13 +145,7 @@ final List _verbs = [
     "4": "subtracted",
     "5": "subtracts"
   },
-  {
-    "1": "swear",
-    "2": "sworn",
-    "3": "swearing",
-    "4": "swore",
-    "5": "swears"
-  },
+  {"1": "swear", "2": "sworn", "3": "swearing", "4": "swore", "5": "swears"},
   {
     "1": "synthesize",
     "2": "synthesized",
@@ -253,20 +181,8 @@ final List _verbs = [
     "4": "verbalized",
     "5": "verbalizes"
   },
-  {
-    "1": "wed",
-    "2": "wedded",
-    "3": "wedding",
-    "4": "wedded",
-    "5": "weds"
-  },
-  {
-    "1": "wend",
-    "2": "wended",
-    "3": "wending",
-    "4": "wended",
-    "5": "wends"
-  },
+  {"1": "wed", "2": "wedded", "3": "wedding", "4": "wedded", "5": "weds"},
+  {"1": "wend", "2": "wended", "3": "wending", "4": "wended", "5": "wends"},
   {
     "1": "accelerate",
     "2": "accelerated",
@@ -316,13 +232,7 @@ final List _verbs = [
     "4": "adapted",
     "5": "adapts"
   },
-  {
-    "1": "add",
-    "2": "added",
-    "3": "adding",
-    "4": "added",
-    "5": "adds"
-  },
+  {"1": "add", "2": "added", "3": "adding", "4": "added", "5": "adds"},
   {
     "1": "administer",
     "2": "administered",
@@ -365,13 +275,7 @@ final List _verbs = [
     "4": "afforded",
     "5": "affords"
   },
-  {
-    "1": "agree",
-    "2": "agreed",
-    "3": "agreeing",
-    "4": "agreed",
-    "5": "agrees"
-  },
+  {"1": "agree", "2": "agreed", "3": "agreeing", "4": "agreed", "5": "agrees"},
   {
     "1": "alert",
     "2": "alerted",
@@ -393,13 +297,7 @@ final List _verbs = [
     "4": "allowed",
     "5": "allows"
   },
-  {
-    "1": "amuse",
-    "2": "amused",
-    "3": "amusing",
-    "4": "amused",
-    "5": "amuses"
-  },
+  {"1": "amuse", "2": "amused", "3": "amusing", "4": "amused", "5": "amuses"},
   {
     "1": "analyze",
     "2": "analyzed",
@@ -491,20 +389,8 @@ final List _verbs = [
     "4": "arbitrated",
     "5": "arbitrates"
   },
-  {
-    "1": "argue",
-    "2": "argued",
-    "3": "arguing",
-    "4": "argued",
-    "5": "argues"
-  },
-  {
-    "1": "arise",
-    "2": "arisen",
-    "3": "arising",
-    "4": "arose",
-    "5": "arises"
-  },
+  {"1": "argue", "2": "argued", "3": "arguing", "4": "argued", "5": "argues"},
+  {"1": "arise", "2": "arisen", "3": "arising", "4": "arose", "5": "arises"},
   {
     "1": "arrange",
     "2": "arranged",
@@ -533,13 +419,7 @@ final List _verbs = [
     "4": "ascertained",
     "5": "ascertains"
   },
-  {
-    "1": "ask",
-    "2": "asked",
-    "3": "asking",
-    "4": "asked",
-    "5": "asks"
-  },
+  {"1": "ask", "2": "asked", "3": "asking", "4": "asked", "5": "asks"},
   {
     "1": "assemble",
     "2": "assembled",
@@ -617,62 +497,14 @@ final List _verbs = [
     "4": "avoided",
     "5": "avoids"
   },
-  {
-    "1": "awake",
-    "2": "awoken",
-    "3": "awaking",
-    "4": "awoke",
-    "5": "awakes"
-  },
-  {
-    "1": "back",
-    "2": "backed",
-    "3": "backing",
-    "4": "backed",
-    "5": "backs"
-  },
-  {
-    "1": "bake",
-    "2": "dialectal",
-    "3": "baking",
-    "4": "baked",
-    "5": "bakes"
-  },
-  {
-    "1": "ban",
-    "2": "banned",
-    "3": "banning",
-    "4": "banned",
-    "5": "bans"
-  },
-  {
-    "1": "bang",
-    "2": "banged",
-    "3": "banging",
-    "4": "banged",
-    "5": "bangs"
-  },
-  {
-    "1": "bare",
-    "2": "bared",
-    "3": "baring",
-    "4": "bared",
-    "5": "bares"
-  },
-  {
-    "1": "bat",
-    "2": "batted",
-    "3": "batting",
-    "4": "batted",
-    "5": "bats"
-  },
-  {
-    "1": "bathe",
-    "2": "bathed",
-    "3": "bathing",
-    "4": "bathed",
-    "5": "bathes"
-  },
+  {"1": "awake", "2": "awoken", "3": "awaking", "4": "awoke", "5": "awakes"},
+  {"1": "back", "2": "backed", "3": "backing", "4": "backed", "5": "backs"},
+  {"1": "bake", "2": "dialectal", "3": "baking", "4": "baked", "5": "bakes"},
+  {"1": "ban", "2": "banned", "3": "banning", "4": "banned", "5": "bans"},
+  {"1": "bang", "2": "banged", "3": "banging", "4": "banged", "5": "bangs"},
+  {"1": "bare", "2": "bared", "3": "baring", "4": "bared", "5": "bares"},
+  {"1": "bat", "2": "batted", "3": "batting", "4": "batted", "5": "bats"},
+  {"1": "bathe", "2": "bathed", "3": "bathing", "4": "bathed", "5": "bathes"},
   {
     "1": "battle",
     "2": "battled",
@@ -690,27 +522,9 @@ final List _verbs = [
     "7": "was",
     "8": "were"
   },
-  {
-    "1": "beam",
-    "2": "beamed",
-    "3": "beaming",
-    "4": "beamed",
-    "5": "beams"
-  },
-  {
-    "1": "bear",
-    "2": "archaic",
-    "3": "bearing",
-    "4": "bore",
-    "5": "bears"
-  },
-  {
-    "1": "beat",
-    "2": "beaten",
-    "3": "beating",
-    "4": "beat",
-    "5": "beats"
-  },
+  {"1": "beam", "2": "beamed", "3": "beaming", "4": "beamed", "5": "beams"},
+  {"1": "bear", "2": "archaic", "3": "bearing", "4": "bore", "5": "bears"},
+  {"1": "beat", "2": "beaten", "3": "beating", "4": "beat", "5": "beats"},
   {
     "1": "become",
     "2": "become",
@@ -718,20 +532,8 @@ final List _verbs = [
     "4": "became",
     "5": "becomes"
   },
-  {
-    "1": "beg",
-    "2": "begged",
-    "3": "begging",
-    "4": "begged",
-    "5": "begs"
-  },
-  {
-    "1": "begin",
-    "2": "begun",
-    "3": "beginning",
-    "4": "began",
-    "5": "begins"
-  },
+  {"1": "beg", "2": "begged", "3": "begging", "4": "begged", "5": "begs"},
+  {"1": "begin", "2": "begun", "3": "beginning", "4": "began", "5": "begins"},
   {
     "1": "behave",
     "2": "behaved",
@@ -753,48 +555,12 @@ final List _verbs = [
     "4": "belonged",
     "5": "belongs"
   },
-  {
-    "1": "bend",
-    "2": "bent",
-    "3": "bending",
-    "4": "bent",
-    "5": "bends"
-  },
-  {
-    "1": "beset",
-    "2": "beset",
-    "3": "besetting",
-    "4": "beset",
-    "5": "besets"
-  },
-  {
-    "1": "bet",
-    "2": "betted",
-    "3": "betting",
-    "4": "betted",
-    "5": "bets"
-  },
-  {
-    "1": "bid",
-    "2": "bidden",
-    "3": "bidding",
-    "4": "bade",
-    "5": "bids"
-  },
-  {
-    "1": "bind",
-    "2": "bound",
-    "3": "binding",
-    "4": "bound",
-    "5": "binds"
-  },
-  {
-    "1": "bite",
-    "2": "bitten",
-    "3": "biting",
-    "4": "bit",
-    "5": "bites"
-  },
+  {"1": "bend", "2": "bent", "3": "bending", "4": "bent", "5": "bends"},
+  {"1": "beset", "2": "beset", "3": "besetting", "4": "beset", "5": "besets"},
+  {"1": "bet", "2": "betted", "3": "betting", "4": "betted", "5": "bets"},
+  {"1": "bid", "2": "bidden", "3": "bidding", "4": "bade", "5": "bids"},
+  {"1": "bind", "2": "bound", "3": "binding", "4": "bound", "5": "binds"},
+  {"1": "bite", "2": "bitten", "3": "biting", "4": "bit", "5": "bites"},
   {
     "1": "bleach",
     "2": "bleached",
@@ -802,20 +568,8 @@ final List _verbs = [
     "4": "bleached",
     "5": "bleaches"
   },
-  {
-    "1": "bleed",
-    "2": "bled",
-    "3": "bleeding",
-    "4": "bled",
-    "5": "bleeds"
-  },
-  {
-    "1": "bless",
-    "2": "blest",
-    "3": "blessing",
-    "4": "blest",
-    "5": "blesses"
-  },
+  {"1": "bleed", "2": "bled", "3": "bleeding", "4": "bled", "5": "bleeds"},
+  {"1": "bless", "2": "blest", "3": "blessing", "4": "blest", "5": "blesses"},
   {
     "1": "blind",
     "2": "blinded",
@@ -830,20 +584,8 @@ final List _verbs = [
     "4": "blinked",
     "5": "blinks"
   },
-  {
-    "1": "blot",
-    "2": "blotted",
-    "3": "blotting",
-    "4": "blotted",
-    "5": "blots"
-  },
-  {
-    "1": "blow",
-    "2": "blown",
-    "3": "blowing",
-    "4": "blew",
-    "5": "blows"
-  },
+  {"1": "blot", "2": "blotted", "3": "blotting", "4": "blotted", "5": "blots"},
+  {"1": "blow", "2": "blown", "3": "blowing", "4": "blew", "5": "blows"},
   {
     "1": "blush",
     "2": "blushed",
@@ -858,41 +600,11 @@ final List _verbs = [
     "4": "boasted",
     "5": "boasts"
   },
-  {
-    "1": "boil",
-    "2": "boiled",
-    "3": "boiling",
-    "4": "boiled",
-    "5": "boils"
-  },
-  {
-    "1": "bolt",
-    "2": "bolted",
-    "3": "bolting",
-    "4": "bolted",
-    "5": "bolts"
-  },
-  {
-    "1": "bomb",
-    "2": "bombed",
-    "3": "bombing",
-    "4": "bombed",
-    "5": "bombs"
-  },
-  {
-    "1": "book",
-    "2": "booked",
-    "3": "booking",
-    "4": "booked",
-    "5": "books"
-  },
-  {
-    "1": "bore",
-    "2": "bored",
-    "3": "boring",
-    "4": "bored",
-    "5": "bores"
-  },
+  {"1": "boil", "2": "boiled", "3": "boiling", "4": "boiled", "5": "boils"},
+  {"1": "bolt", "2": "bolted", "3": "bolting", "4": "bolted", "5": "bolts"},
+  {"1": "bomb", "2": "bombed", "3": "bombing", "4": "bombed", "5": "bombs"},
+  {"1": "book", "2": "booked", "3": "booking", "4": "booked", "5": "books"},
+  {"1": "bore", "2": "bored", "3": "boring", "4": "bored", "5": "bores"},
   {
     "1": "borrow",
     "2": "borrowed",
@@ -907,27 +619,9 @@ final List _verbs = [
     "4": "bounced",
     "5": "bounces"
   },
-  {
-    "1": "bow",
-    "2": "bowed",
-    "3": "bowing",
-    "4": "bowed",
-    "5": "bows"
-  },
-  {
-    "1": "box",
-    "2": "boxed",
-    "3": "boxing",
-    "4": "boxed",
-    "5": "boxes"
-  },
-  {
-    "1": "brake",
-    "2": "braked",
-    "3": "braking",
-    "4": "braked",
-    "5": "brakes"
-  },
+  {"1": "bow", "2": "bowed", "3": "bowing", "4": "bowed", "5": "bows"},
+  {"1": "box", "2": "boxed", "3": "boxing", "4": "boxed", "5": "boxes"},
+  {"1": "brake", "2": "braked", "3": "braking", "4": "braked", "5": "brakes"},
   {
     "1": "branch",
     "2": "branched",
@@ -935,13 +629,7 @@ final List _verbs = [
     "4": "branched",
     "5": "branches"
   },
-  {
-    "1": "break",
-    "2": "broken",
-    "3": "breaking",
-    "4": "broke",
-    "5": "breaks"
-  },
+  {"1": "break", "2": "broken", "3": "breaking", "4": "broke", "5": "breaks"},
   {
     "1": "breathe",
     "2": "breathed",
@@ -949,13 +637,7 @@ final List _verbs = [
     "4": "breathed",
     "5": "breathes"
   },
-  {
-    "1": "breed",
-    "2": "bred",
-    "3": "breeding",
-    "4": "bred",
-    "5": "breeds"
-  },
+  {"1": "breed", "2": "bred", "3": "breeding", "4": "bred", "5": "breeds"},
   {
     "1": "brief",
     "2": "briefed",
@@ -1005,62 +687,14 @@ final List _verbs = [
     "4": "budgeted",
     "5": "budgets"
   },
-  {
-    "1": "build",
-    "2": "built",
-    "3": "building",
-    "4": "built",
-    "5": "builds"
-  },
-  {
-    "1": "bump",
-    "2": "bumped",
-    "3": "bumping",
-    "4": "bumped",
-    "5": "bumps"
-  },
-  {
-    "1": "burn",
-    "2": "burned",
-    "3": "burning",
-    "4": "burned",
-    "5": "burns"
-  },
-  {
-    "1": "burst",
-    "2": "burst",
-    "3": "bursting",
-    "4": "burst",
-    "5": "bursts"
-  },
-  {
-    "1": "bury",
-    "2": "buried",
-    "3": "burying",
-    "4": "buried",
-    "5": "buries"
-  },
-  {
-    "1": "bust",
-    "2": "busted",
-    "3": "busting",
-    "4": "busted",
-    "5": "busts"
-  },
-  {
-    "1": "buy",
-    "2": "bought",
-    "3": "buying",
-    "4": "bought",
-    "5": "buys"
-  },
-  {
-    "1": "buzz",
-    "2": "buzzed",
-    "3": "buzzing",
-    "4": "buzzed",
-    "5": "buzzes"
-  },
+  {"1": "build", "2": "built", "3": "building", "4": "built", "5": "builds"},
+  {"1": "bump", "2": "bumped", "3": "bumping", "4": "bumped", "5": "bumps"},
+  {"1": "burn", "2": "burned", "3": "burning", "4": "burned", "5": "burns"},
+  {"1": "burst", "2": "burst", "3": "bursting", "4": "burst", "5": "bursts"},
+  {"1": "bury", "2": "buried", "3": "burying", "4": "buried", "5": "buries"},
+  {"1": "bust", "2": "busted", "3": "busting", "4": "busted", "5": "busts"},
+  {"1": "buy", "2": "bought", "3": "buying", "4": "bought", "5": "buys"},
+  {"1": "buzz", "2": "buzzed", "3": "buzzing", "4": "buzzed", "5": "buzzes"},
   {
     "1": "calculate",
     "2": "calculated",
@@ -1068,34 +702,10 @@ final List _verbs = [
     "4": "calculated",
     "5": "calculates"
   },
-  {
-    "1": "call",
-    "2": "called",
-    "3": "calling",
-    "4": "called",
-    "5": "calls"
-  },
-  {
-    "1": "camp",
-    "2": "camped",
-    "3": "camping",
-    "4": "camped",
-    "5": "camps"
-  },
-  {
-    "1": "can",
-    "2": "Iwasable",
-    "3": "Ican",
-    "4": "couldhave",
-    "5": "can"
-  },
-  {
-    "1": "care",
-    "2": "cared",
-    "3": "caring",
-    "4": "cared",
-    "5": "cares"
-  },
+  {"1": "call", "2": "called", "3": "calling", "4": "called", "5": "calls"},
+  {"1": "camp", "2": "camped", "3": "camping", "4": "camped", "5": "camps"},
+  {"1": "can", "2": "Iwasable", "3": "Ican", "4": "couldhave", "5": "can"},
+  {"1": "care", "2": "cared", "3": "caring", "4": "cared", "5": "cares"},
   {
     "1": "carry",
     "2": "carried",
@@ -1103,20 +713,8 @@ final List _verbs = [
     "4": "carried",
     "5": "carries"
   },
-  {
-    "1": "carve",
-    "2": "carved",
-    "3": "carving",
-    "4": "carved",
-    "5": "carves"
-  },
-  {
-    "1": "cast",
-    "2": "cast",
-    "3": "casting",
-    "4": "cast",
-    "5": "casts"
-  },
+  {"1": "carve", "2": "carved", "3": "carving", "4": "carved", "5": "carves"},
+  {"1": "cast", "2": "cast", "3": "casting", "4": "cast", "5": "casts"},
   {
     "1": "catalog",
     "2": "cataloged",
@@ -1124,20 +722,8 @@ final List _verbs = [
     "4": "cataloged",
     "5": "catalogs"
   },
-  {
-    "1": "catch",
-    "2": "caught",
-    "3": "catching",
-    "4": "caught",
-    "5": "catches"
-  },
-  {
-    "1": "cause",
-    "2": "caused",
-    "3": "causing",
-    "4": "caused",
-    "5": "causes"
-  },
+  {"1": "catch", "2": "caught", "3": "catching", "4": "caught", "5": "catches"},
+  {"1": "cause", "2": "caused", "3": "causing", "4": "caused", "5": "causes"},
   {
     "1": "challenge",
     "2": "challenged",
@@ -1166,13 +752,7 @@ final List _verbs = [
     "4": "charted",
     "5": "charts"
   },
-  {
-    "1": "chase",
-    "2": "chased",
-    "3": "chasing",
-    "4": "chased",
-    "5": "chases"
-  },
+  {"1": "chase", "2": "chased", "3": "chasing", "4": "chased", "5": "chases"},
   {
     "1": "cheat",
     "2": "cheated",
@@ -1194,27 +774,9 @@ final List _verbs = [
     "4": "cheered",
     "5": "cheers"
   },
-  {
-    "1": "chew",
-    "2": "chewed",
-    "3": "chewing",
-    "4": "chewed",
-    "5": "chews"
-  },
-  {
-    "1": "choose",
-    "2": "chosen",
-    "3": "choosing",
-    "4": "chose",
-    "5": "chooses"
-  },
-  {
-    "1": "chop",
-    "2": "chopped",
-    "3": "chopping",
-    "4": "chopped",
-    "5": "chops"
-  },
+  {"1": "chew", "2": "chewed", "3": "chewing", "4": "chewed", "5": "chews"},
+  {"1": "choose", "2": "chosen", "3": "choosing", "4": "chose", "5": "chooses"},
+  {"1": "chop", "2": "chopped", "3": "chopping", "4": "chopped", "5": "chops"},
   {
     "1": "claim",
     "2": "claimed",
@@ -1222,13 +784,7 @@ final List _verbs = [
     "4": "claimed",
     "5": "claims"
   },
-  {
-    "1": "clap",
-    "2": "clapped",
-    "3": "clapping",
-    "4": "clapped",
-    "5": "claps"
-  },
+  {"1": "clap", "2": "clapped", "3": "clapping", "4": "clapped", "5": "claps"},
   {
     "1": "clarify",
     "2": "clarified",
@@ -1257,34 +813,10 @@ final List _verbs = [
     "4": "cleared",
     "5": "clears"
   },
-  {
-    "1": "cling",
-    "2": "clung",
-    "3": "clinging",
-    "4": "clung",
-    "5": "clings"
-  },
-  {
-    "1": "clip",
-    "2": "clipped",
-    "3": "clipping",
-    "4": "clipped",
-    "5": "clips"
-  },
-  {
-    "1": "close",
-    "2": "closed",
-    "3": "closing",
-    "4": "closed",
-    "5": "closes"
-  },
-  {
-    "1": "clothe",
-    "2": "clad",
-    "3": "clothing",
-    "4": "clad",
-    "5": "clothes"
-  },
+  {"1": "cling", "2": "clung", "3": "clinging", "4": "clung", "5": "clings"},
+  {"1": "clip", "2": "clipped", "3": "clipping", "4": "clipped", "5": "clips"},
+  {"1": "close", "2": "closed", "3": "closing", "4": "closed", "5": "closes"},
+  {"1": "clothe", "2": "clad", "3": "clothing", "4": "clad", "5": "clothes"},
   {
     "1": "coach",
     "2": "coached",
@@ -1292,13 +824,7 @@ final List _verbs = [
     "4": "coached",
     "5": "coaches"
   },
-  {
-    "1": "coil",
-    "2": "coiled",
-    "3": "coiling",
-    "4": "coiled",
-    "5": "coils"
-  },
+  {"1": "coil", "2": "coiled", "3": "coiling", "4": "coiled", "5": "coils"},
   {
     "1": "collect",
     "2": "collected",
@@ -1313,20 +839,8 @@ final List _verbs = [
     "4": "colored",
     "5": "colors"
   },
-  {
-    "1": "comb",
-    "2": "combed",
-    "3": "combing",
-    "4": "combed",
-    "5": "combs"
-  },
-  {
-    "1": "come",
-    "2": "come",
-    "3": "coming",
-    "4": "came",
-    "5": "comes"
-  },
+  {"1": "comb", "2": "combed", "3": "combing", "4": "combed", "5": "combs"},
+  {"1": "come", "2": "come", "3": "coming", "4": "came", "5": "comes"},
   {
     "1": "command",
     "2": "commanded",
@@ -1530,13 +1044,7 @@ final List _verbs = [
     "4": "coordinated",
     "5": "coordinates"
   },
-  {
-    "1": "copy",
-    "2": "copied",
-    "3": "copying",
-    "4": "copied",
-    "5": "copies"
-  },
+  {"1": "copy", "2": "copied", "3": "copying", "4": "copied", "5": "copies"},
   {
     "1": "correct",
     "2": "corrected",
@@ -1544,13 +1052,7 @@ final List _verbs = [
     "4": "corrected",
     "5": "corrects"
   },
-  {
-    "1": "cost",
-    "2": "cost",
-    "3": "costing",
-    "4": "cost",
-    "5": "costs"
-  },
+  {"1": "cost", "2": "cost", "3": "costing", "4": "cost", "5": "costs"},
   {
     "1": "cough",
     "2": "coughed",
@@ -1607,13 +1109,7 @@ final List _verbs = [
     "4": "created",
     "5": "creates"
   },
-  {
-    "1": "creep",
-    "2": "crept",
-    "3": "creeping",
-    "4": "crept",
-    "5": "creeps"
-  },
+  {"1": "creep", "2": "crept", "3": "creeping", "4": "crept", "5": "creeps"},
   {
     "1": "critique",
     "2": "critiqued",
@@ -1621,13 +1117,7 @@ final List _verbs = [
     "4": "critiqued",
     "5": "critiques"
   },
-  {
-    "1": "crow",
-    "2": "crowed",
-    "3": "crowing",
-    "4": "crowed",
-    "5": "crows"
-  },
+  {"1": "crow", "2": "crowed", "3": "crowing", "4": "crowed", "5": "crows"},
   {
     "1": "crush",
     "2": "crushed",
@@ -1635,55 +1125,13 @@ final List _verbs = [
     "4": "crushed",
     "5": "crushes"
   },
-  {
-    "1": "cry",
-    "2": "cried",
-    "3": "crying",
-    "4": "cried",
-    "5": "cries"
-  },
-  {
-    "1": "cure",
-    "2": "cured",
-    "3": "curing",
-    "4": "cured",
-    "5": "cures"
-  },
-  {
-    "1": "curl",
-    "2": "curled",
-    "3": "curling",
-    "4": "curled",
-    "5": "curls"
-  },
-  {
-    "1": "curve",
-    "2": "curved",
-    "3": "curving",
-    "4": "curved",
-    "5": "curves"
-  },
-  {
-    "1": "cut",
-    "2": "cut",
-    "3": "cutting",
-    "4": "cut",
-    "5": "cuts"
-  },
-  {
-    "1": "cycle",
-    "2": "cycled",
-    "3": "cycling",
-    "4": "cycled",
-    "5": "cycles"
-  },
-  {
-    "1": "dam",
-    "2": "dammed",
-    "3": "damming",
-    "4": "dammed",
-    "5": "dams"
-  },
+  {"1": "cry", "2": "cried", "3": "crying", "4": "cried", "5": "cries"},
+  {"1": "cure", "2": "cured", "3": "curing", "4": "cured", "5": "cures"},
+  {"1": "curl", "2": "curled", "3": "curling", "4": "curled", "5": "curls"},
+  {"1": "curve", "2": "curved", "3": "curving", "4": "curved", "5": "curves"},
+  {"1": "cut", "2": "cut", "3": "cutting", "4": "cut", "5": "cuts"},
+  {"1": "cycle", "2": "cycled", "3": "cycling", "4": "cycled", "5": "cycles"},
+  {"1": "dam", "2": "dammed", "3": "damming", "4": "dammed", "5": "dams"},
   {
     "1": "damage",
     "2": "damaged",
@@ -1691,27 +1139,9 @@ final List _verbs = [
     "4": "damaged",
     "5": "damages"
   },
-  {
-    "1": "dance",
-    "2": "danced",
-    "3": "dancing",
-    "4": "danced",
-    "5": "dances"
-  },
-  {
-    "1": "dare",
-    "2": "dared",
-    "3": "daring",
-    "4": "dared",
-    "5": "dares"
-  },
-  {
-    "1": "deal",
-    "2": "dealt",
-    "3": "dealing",
-    "4": "dealt",
-    "5": "deals"
-  },
+  {"1": "dance", "2": "danced", "3": "dancing", "4": "danced", "5": "dances"},
+  {"1": "dare", "2": "dared", "3": "daring", "4": "dared", "5": "dares"},
+  {"1": "deal", "2": "dealt", "3": "dealing", "4": "dealt", "5": "deals"},
   {
     "1": "decay",
     "2": "decayed",
@@ -1866,13 +1296,7 @@ final List _verbs = [
     "4": "diagnosed",
     "5": "diagnoses"
   },
-  {
-    "1": "dig",
-    "2": "dug",
-    "3": "digging",
-    "4": "dug",
-    "5": "digs"
-  },
+  {"1": "dig", "2": "dug", "3": "digging", "4": "dug", "5": "digs"},
   {
     "1": "direct",
     "2": "directed",
@@ -1957,13 +1381,7 @@ final List _verbs = [
     "4": "distributed",
     "5": "distributes"
   },
-  {
-    "1": "dive",
-    "2": "dived",
-    "3": "diving",
-    "4": "dived",
-    "5": "dives"
-  },
+  {"1": "dive", "2": "dived", "3": "diving", "4": "dived", "5": "dives"},
   {
     "1": "divert",
     "2": "diverted",
@@ -1978,13 +1396,7 @@ final List _verbs = [
     "4": "divided",
     "5": "divides"
   },
-  {
-    "1": "do",
-    "2": "did",
-    "3": "doing",
-    "4": "done",
-    "5": "does"
-  },
+  {"1": "do", "2": "did", "3": "doing", "4": "done", "5": "does"},
   {
     "1": "double",
     "2": "doubled",
@@ -2006,13 +1418,7 @@ final List _verbs = [
     "4": "drafted",
     "5": "drafts"
   },
-  {
-    "1": "drag",
-    "2": "dragged",
-    "3": "dragging",
-    "4": "dragged",
-    "5": "drags"
-  },
+  {"1": "drag", "2": "dragged", "3": "dragging", "4": "dragged", "5": "drags"},
   {
     "1": "drain",
     "2": "drained",
@@ -2027,13 +1433,7 @@ final List _verbs = [
     "4": "dramatized",
     "5": "dramatizes"
   },
-  {
-    "1": "draw",
-    "2": "drawn",
-    "3": "drawing",
-    "4": "drew",
-    "5": "draws"
-  },
+  {"1": "draw", "2": "drawn", "3": "drawing", "4": "drew", "5": "draws"},
   {
     "1": "dream",
     "2": "dreamed",
@@ -2048,34 +1448,10 @@ final List _verbs = [
     "4": "dressed",
     "5": "dresses"
   },
-  {
-    "1": "drink",
-    "2": "drunk",
-    "3": "drinking",
-    "4": "drank",
-    "5": "drinks"
-  },
-  {
-    "1": "drip",
-    "2": "dripped",
-    "3": "dripping",
-    "4": "dripped",
-    "5": "drips"
-  },
-  {
-    "1": "drive",
-    "2": "driven",
-    "3": "driving",
-    "4": "drove",
-    "5": "drives"
-  },
-  {
-    "1": "drop",
-    "2": "dropped",
-    "3": "dropping",
-    "4": "dropped",
-    "5": "drops"
-  },
+  {"1": "drink", "2": "drunk", "3": "drinking", "4": "drank", "5": "drinks"},
+  {"1": "drip", "2": "dripped", "3": "dripping", "4": "dripped", "5": "drips"},
+  {"1": "drive", "2": "driven", "3": "driving", "4": "drove", "5": "drives"},
+  {"1": "drop", "2": "dropped", "3": "dropping", "4": "dropped", "5": "drops"},
   {
     "1": "drown",
     "2": "drowned",
@@ -2083,48 +1459,12 @@ final List _verbs = [
     "4": "drowned",
     "5": "drowns"
   },
-  {
-    "1": "drum",
-    "2": "drummed",
-    "3": "drumming",
-    "4": "drummed",
-    "5": "drums"
-  },
-  {
-    "1": "dry",
-    "2": "dried",
-    "3": "drying",
-    "4": "dried",
-    "5": "dries"
-  },
-  {
-    "1": "dust",
-    "2": "dusted",
-    "3": "dusting",
-    "4": "dusted",
-    "5": "dusts"
-  },
-  {
-    "1": "dwell",
-    "2": "dwelt",
-    "3": "dwelling",
-    "4": "dwelt",
-    "5": "dwells"
-  },
-  {
-    "1": "earn",
-    "2": "earned",
-    "3": "earning",
-    "4": "earned",
-    "5": "earns"
-  },
-  {
-    "1": "eat",
-    "2": "eaten",
-    "3": "eating",
-    "4": "ate",
-    "5": "eats"
-  },
+  {"1": "drum", "2": "drummed", "3": "drumming", "4": "drummed", "5": "drums"},
+  {"1": "dry", "2": "dried", "3": "drying", "4": "dried", "5": "dries"},
+  {"1": "dust", "2": "dusted", "3": "dusting", "4": "dusted", "5": "dusts"},
+  {"1": "dwell", "2": "dwelt", "3": "dwelling", "4": "dwelt", "5": "dwells"},
+  {"1": "earn", "2": "earned", "3": "earning", "4": "earned", "5": "earns"},
+  {"1": "eat", "2": "eaten", "3": "eating", "4": "ate", "5": "eats"},
   {
     "1": "educate",
     "2": "educated",
@@ -2167,13 +1507,7 @@ final List _verbs = [
     "4": "encouraged",
     "5": "encourages"
   },
-  {
-    "1": "end",
-    "2": "ended",
-    "3": "ending",
-    "4": "ended",
-    "5": "ends"
-  },
+  {"1": "end", "2": "ended", "3": "ending", "4": "ended", "5": "ends"},
   {
     "1": "endure",
     "2": "endured",
@@ -2384,13 +1718,7 @@ final List _verbs = [
     "4": "extracted",
     "5": "extracts"
   },
-  {
-    "1": "face",
-    "2": "faced",
-    "3": "facing",
-    "4": "faced",
-    "5": "faces"
-  },
+  {"1": "face", "2": "faced", "3": "facing", "4": "faced", "5": "faces"},
   {
     "1": "facilitate",
     "2": "facilitated",
@@ -2398,20 +1726,8 @@ final List _verbs = [
     "4": "facilitated",
     "5": "facilitates"
   },
-  {
-    "1": "fade",
-    "2": "faded",
-    "3": "fading",
-    "4": "faded",
-    "5": "fades"
-  },
-  {
-    "1": "fail",
-    "2": "failed",
-    "3": "failing",
-    "4": "failed",
-    "5": "fails"
-  },
+  {"1": "fade", "2": "faded", "3": "fading", "4": "faded", "5": "fades"},
+  {"1": "fail", "2": "failed", "3": "failing", "4": "failed", "5": "fails"},
   {
     "1": "fall",
     "2": "inarchaicsenseonly",
@@ -2433,41 +1749,11 @@ final List _verbs = [
     "4": "fastened",
     "5": "fastens"
   },
-  {
-    "1": "fax",
-    "2": "faxed",
-    "3": "faxing",
-    "4": "faxed",
-    "5": "faxes"
-  },
-  {
-    "1": "fear",
-    "2": "feared",
-    "3": "fearing",
-    "4": "feared",
-    "5": "fears"
-  },
-  {
-    "1": "feed",
-    "2": "fed",
-    "3": "feeding",
-    "4": "fed",
-    "5": "feeds"
-  },
-  {
-    "1": "feel",
-    "2": "felt",
-    "3": "feeling",
-    "4": "felt",
-    "5": "feels"
-  },
-  {
-    "1": "fence",
-    "2": "fenced",
-    "3": "fencing",
-    "4": "fenced",
-    "5": "fences"
-  },
+  {"1": "fax", "2": "faxed", "3": "faxing", "4": "faxed", "5": "faxes"},
+  {"1": "fear", "2": "feared", "3": "fearing", "4": "feared", "5": "fears"},
+  {"1": "feed", "2": "fed", "3": "feeding", "4": "fed", "5": "feeds"},
+  {"1": "feel", "2": "felt", "3": "feeling", "4": "felt", "5": "feels"},
+  {"1": "fence", "2": "fenced", "3": "fencing", "4": "fenced", "5": "fences"},
   {
     "1": "fetch",
     "2": "fetched",
@@ -2475,34 +1761,10 @@ final List _verbs = [
     "4": "fetched",
     "5": "fetches"
   },
-  {
-    "1": "fight",
-    "2": "fought",
-    "3": "fighting",
-    "4": "fought",
-    "5": "fights"
-  },
-  {
-    "1": "file",
-    "2": "filed",
-    "3": "filing",
-    "4": "filed",
-    "5": "files"
-  },
-  {
-    "1": "fill",
-    "2": "filled",
-    "3": "filling",
-    "4": "filled",
-    "5": "fills"
-  },
-  {
-    "1": "film",
-    "2": "filmed",
-    "3": "filming",
-    "4": "filmed",
-    "5": "films"
-  },
+  {"1": "fight", "2": "fought", "3": "fighting", "4": "fought", "5": "fights"},
+  {"1": "file", "2": "filed", "3": "filing", "4": "filed", "5": "files"},
+  {"1": "fill", "2": "filled", "3": "filling", "4": "filled", "5": "fills"},
+  {"1": "film", "2": "filmed", "3": "filming", "4": "filmed", "5": "films"},
   {
     "1": "finalize",
     "2": "finalized",
@@ -2517,27 +1779,9 @@ final List _verbs = [
     "4": "financed",
     "5": "finances"
   },
-  {
-    "1": "fire",
-    "2": "fired",
-    "3": "firing",
-    "4": "fired",
-    "5": "fires"
-  },
-  {
-    "1": "fit",
-    "2": "fitted",
-    "3": "fitting",
-    "4": "fitted",
-    "5": "fits"
-  },
-  {
-    "1": "fix",
-    "2": "fixt",
-    "3": "fixing",
-    "4": "fixt",
-    "5": "fixes"
-  },
+  {"1": "fire", "2": "fired", "3": "firing", "4": "fired", "5": "fires"},
+  {"1": "fit", "2": "fitted", "3": "fitting", "4": "fitted", "5": "fits"},
+  {"1": "fix", "2": "fixt", "3": "fixing", "4": "fixt", "5": "fixes"},
   {
     "1": "flash",
     "2": "flashed",
@@ -2545,20 +1789,8 @@ final List _verbs = [
     "4": "flashed",
     "5": "flashes"
   },
-  {
-    "1": "flee",
-    "2": "fled",
-    "3": "fleeing",
-    "4": "fled",
-    "5": "flees"
-  },
-  {
-    "1": "fling",
-    "2": "flung",
-    "3": "flinging",
-    "4": "flung",
-    "5": "flings"
-  },
+  {"1": "flee", "2": "fled", "3": "fleeing", "4": "fled", "5": "flees"},
+  {"1": "fling", "2": "flung", "3": "flinging", "4": "flung", "5": "flings"},
   {
     "1": "float",
     "2": "floated",
@@ -2573,13 +1805,7 @@ final List _verbs = [
     "4": "flooded",
     "5": "floods"
   },
-  {
-    "1": "flow",
-    "2": "flowed",
-    "3": "flowing",
-    "4": "flowed",
-    "5": "flows"
-  },
+  {"1": "flow", "2": "flowed", "3": "flowing", "4": "flowed", "5": "flows"},
   {
     "1": "flower",
     "2": "flowered",
@@ -2587,20 +1813,8 @@ final List _verbs = [
     "4": "flowered",
     "5": "flowers"
   },
-  {
-    "1": "fly",
-    "2": "flown",
-    "3": "flying",
-    "4": "flew",
-    "5": "flies"
-  },
-  {
-    "1": "fold",
-    "2": "obsolete",
-    "3": "folding",
-    "4": "folded",
-    "5": "folds"
-  },
+  {"1": "fly", "2": "flown", "3": "flying", "4": "flew", "5": "flies"},
+  {"1": "fold", "2": "obsolete", "3": "folding", "4": "folded", "5": "folds"},
   {
     "1": "follow",
     "2": "followed",
@@ -2608,13 +1822,7 @@ final List _verbs = [
     "4": "followed",
     "5": "follows"
   },
-  {
-    "1": "fool",
-    "2": "fooled",
-    "3": "fooling",
-    "4": "fooled",
-    "5": "fools"
-  },
+  {"1": "fool", "2": "fooled", "3": "fooling", "4": "fooled", "5": "fools"},
   {
     "1": "forbid",
     "2": "forbidden",
@@ -2622,13 +1830,7 @@ final List _verbs = [
     "4": "forbade",
     "5": "forbids"
   },
-  {
-    "1": "force",
-    "2": "forced",
-    "3": "forcing",
-    "4": "forced",
-    "5": "forces"
-  },
+  {"1": "force", "2": "forced", "3": "forcing", "4": "forced", "5": "forces"},
   {
     "1": "forecast",
     "2": "forecasted",
@@ -2657,13 +1859,7 @@ final List _verbs = [
     "4": "forgave",
     "5": "forgives"
   },
-  {
-    "1": "form",
-    "2": "formed",
-    "3": "forming",
-    "4": "formed",
-    "5": "forms"
-  },
+  {"1": "form", "2": "formed", "3": "forming", "4": "formed", "5": "forms"},
   {
     "1": "formulate",
     "2": "formulated",
@@ -2678,20 +1874,8 @@ final List _verbs = [
     "4": "forsook",
     "5": "forsakes"
   },
-  {
-    "1": "frame",
-    "2": "framed",
-    "3": "framing",
-    "4": "framed",
-    "5": "frames"
-  },
-  {
-    "1": "freeze",
-    "2": "frozen",
-    "3": "freezing",
-    "4": "froze",
-    "5": "freezes"
-  },
+  {"1": "frame", "2": "framed", "3": "framing", "4": "framed", "5": "frames"},
+  {"1": "freeze", "2": "frozen", "3": "freezing", "4": "froze", "5": "freezes"},
   {
     "1": "frighten",
     "2": "frightened",
@@ -2706,13 +1890,7 @@ final List _verbs = [
     "4": "gathered",
     "5": "gathers"
   },
-  {
-    "1": "gaze",
-    "2": "gazed",
-    "3": "gazing",
-    "4": "gazed",
-    "5": "gazes"
-  },
+  {"1": "gaze", "2": "gazed", "3": "gazing", "4": "gazed", "5": "gazes"},
   {
     "1": "generate",
     "2": "generated",
@@ -2720,48 +1898,12 @@ final List _verbs = [
     "4": "generated",
     "5": "generates"
   },
-  {
-    "1": "get",
-    "2": "got",
-    "3": "getting",
-    "4": "got",
-    "5": "gets"
-  },
-  {
-    "1": "give",
-    "2": "given",
-    "3": "giving",
-    "4": "gave",
-    "5": "gives"
-  },
-  {
-    "1": "glow",
-    "2": "glowed",
-    "3": "glowing",
-    "4": "glowed",
-    "5": "glows"
-  },
-  {
-    "1": "glue",
-    "2": "glued",
-    "3": "gluing",
-    "4": "glued",
-    "5": "glues"
-  },
-  {
-    "1": "gnaw",
-    "2": "gnawed",
-    "3": "gnawing",
-    "4": "gnawed",
-    "5": "gnaws"
-  },
-  {
-    "1": "go",
-    "2": "gone",
-    "3": "going",
-    "4": "went",
-    "5": "goes"
-  },
+  {"1": "get", "2": "got", "3": "getting", "4": "got", "5": "gets"},
+  {"1": "give", "2": "given", "3": "giving", "4": "gave", "5": "gives"},
+  {"1": "glow", "2": "glowed", "3": "glowing", "4": "glowed", "5": "glows"},
+  {"1": "glue", "2": "glued", "3": "gluing", "4": "glued", "5": "glues"},
+  {"1": "gnaw", "2": "gnawed", "3": "gnawing", "4": "gnawed", "5": "gnaws"},
+  {"1": "go", "2": "gone", "3": "going", "4": "went", "5": "goes"},
   {
     "1": "govern",
     "2": "governed",
@@ -2769,13 +1911,7 @@ final List _verbs = [
     "4": "governed",
     "5": "governs"
   },
-  {
-    "1": "grab",
-    "2": "grabbed",
-    "3": "grabbing",
-    "4": "grabbed",
-    "5": "grabs"
-  },
+  {"1": "grab", "2": "grabbed", "3": "grabbing", "4": "grabbed", "5": "grabs"},
   {
     "1": "graduate",
     "2": "graduated",
@@ -2783,13 +1919,7 @@ final List _verbs = [
     "4": "graduated",
     "5": "graduates"
   },
-  {
-    "1": "grate",
-    "2": "grated",
-    "3": "grating",
-    "4": "grated",
-    "5": "grates"
-  },
+  {"1": "grate", "2": "grated", "3": "grating", "4": "grated", "5": "grates"},
   {
     "1": "grease",
     "2": "greased",
@@ -2804,27 +1934,9 @@ final List _verbs = [
     "4": "greeted",
     "5": "greets"
   },
-  {
-    "1": "grin",
-    "2": "grinned",
-    "3": "grinning",
-    "4": "grinned",
-    "5": "grins"
-  },
-  {
-    "1": "grind",
-    "2": "ground",
-    "3": "grinding",
-    "4": "ground",
-    "5": "grinds"
-  },
-  {
-    "1": "grip",
-    "2": "gripped",
-    "3": "gripping",
-    "4": "gripped",
-    "5": "grips"
-  },
+  {"1": "grin", "2": "grinned", "3": "grinning", "4": "grinned", "5": "grins"},
+  {"1": "grind", "2": "ground", "3": "grinding", "4": "ground", "5": "grinds"},
+  {"1": "grip", "2": "gripped", "3": "gripping", "4": "gripped", "5": "grips"},
   {
     "1": "groan",
     "2": "groaned",
@@ -2832,13 +1944,7 @@ final List _verbs = [
     "4": "groaned",
     "5": "groans"
   },
-  {
-    "1": "grow",
-    "2": "grown",
-    "3": "growing",
-    "4": "grew",
-    "5": "grows"
-  },
+  {"1": "grow", "2": "grown", "3": "growing", "4": "grew", "5": "grows"},
   {
     "1": "guarantee",
     "2": "guaranteed",
@@ -2860,13 +1966,7 @@ final List _verbs = [
     "4": "guessed",
     "5": "guesses"
   },
-  {
-    "1": "guide",
-    "2": "guided",
-    "3": "guiding",
-    "4": "guided",
-    "5": "guides"
-  },
+  {"1": "guide", "2": "guided", "3": "guiding", "4": "guided", "5": "guides"},
   {
     "1": "hammer",
     "2": "hammered",
@@ -2874,13 +1974,7 @@ final List _verbs = [
     "4": "hammered",
     "5": "hammers"
   },
-  {
-    "1": "hand",
-    "2": "handed",
-    "3": "handing",
-    "4": "handed",
-    "5": "hands"
-  },
+  {"1": "hand", "2": "handed", "3": "handing", "4": "handed", "5": "hands"},
   {
     "1": "handle",
     "2": "handled",
@@ -2888,13 +1982,7 @@ final List _verbs = [
     "4": "handled",
     "5": "handles"
   },
-  {
-    "1": "hang",
-    "2": "usage]])''",
-    "3": "hanging",
-    "4": "hung",
-    "5": "hangs"
-  },
+  {"1": "hang", "2": "usage]])''", "3": "hanging", "4": "hung", "5": "hangs"},
   {
     "1": "happen",
     "2": "happened",
@@ -2909,20 +1997,8 @@ final List _verbs = [
     "4": "harassed",
     "5": "harasses"
   },
-  {
-    "1": "harm",
-    "2": "harmed",
-    "3": "harming",
-    "4": "harmed",
-    "5": "harms"
-  },
-  {
-    "1": "hate",
-    "2": "hated",
-    "3": "hating",
-    "4": "hated",
-    "5": "hates"
-  },
+  {"1": "harm", "2": "harmed", "3": "harming", "4": "harmed", "5": "harms"},
+  {"1": "hate", "2": "hated", "3": "hating", "4": "hated", "5": "hates"},
   {
     "1": "haunt",
     "2": "haunted",
@@ -2930,132 +2006,24 @@ final List _verbs = [
     "4": "haunted",
     "5": "haunts"
   },
-  {
-    "1": "have",
-    "2": "had",
-    "3": "having",
-    "4": "had",
-    "5": "has"
-  },
-  {
-    "1": "head",
-    "2": "headed",
-    "3": "heading",
-    "4": "headed",
-    "5": "heads"
-  },
-  {
-    "1": "heal",
-    "2": "healed",
-    "3": "healing",
-    "4": "healed",
-    "5": "heals"
-  },
-  {
-    "1": "heap",
-    "2": "heaped",
-    "3": "heaping",
-    "4": "heaped",
-    "5": "heaps"
-  },
-  {
-    "1": "hear",
-    "2": "heard",
-    "3": "hearing",
-    "4": "heard",
-    "5": "hears"
-  },
-  {
-    "1": "heat",
-    "2": "heated",
-    "3": "heating",
-    "4": "heated",
-    "5": "heats"
-  },
-  {
-    "1": "heave",
-    "2": "heaved",
-    "3": "heaving",
-    "4": "heaved",
-    "5": "heaves"
-  },
-  {
-    "1": "help",
-    "2": "helped",
-    "3": "helping",
-    "4": "helped",
-    "5": "helps"
-  },
-  {
-    "1": "hew",
-    "2": "hewed",
-    "3": "hewing",
-    "4": "hewed",
-    "5": "hews"
-  },
-  {
-    "1": "hide",
-    "2": "hidden",
-    "3": "hiding",
-    "4": "hid",
-    "5": "hides"
-  },
-  {
-    "1": "hit",
-    "2": "hit",
-    "3": "hitting",
-    "4": "hit",
-    "5": "hits"
-  },
-  {
-    "1": "hold",
-    "2": "held",
-    "3": "holding",
-    "4": "held",
-    "5": "holds"
-  },
-  {
-    "1": "hook",
-    "2": "hooked",
-    "3": "hooking",
-    "4": "hooked",
-    "5": "hooks"
-  },
-  {
-    "1": "hop",
-    "2": "hopped",
-    "3": "hopping",
-    "4": "hopped",
-    "5": "hops"
-  },
-  {
-    "1": "hope",
-    "2": "hoped",
-    "3": "hoping",
-    "4": "hoped",
-    "5": "hopes"
-  },
-  {
-    "1": "hug",
-    "2": "hugged",
-    "3": "hugging",
-    "4": "hugged",
-    "5": "hugs"
-  },
-  {
-    "1": "hum",
-    "2": "hummed",
-    "3": "humming",
-    "4": "hummed",
-    "5": "hums"
-  },
-  {
-    "1": "hunt",
-    "2": "hunted",
-    "3": "hunting",
-    "4": "hunted",
-    "5": "hunts"
-  },
+  {"1": "have", "2": "had", "3": "having", "4": "had", "5": "has"},
+  {"1": "head", "2": "headed", "3": "heading", "4": "headed", "5": "heads"},
+  {"1": "heal", "2": "healed", "3": "healing", "4": "healed", "5": "heals"},
+  {"1": "heap", "2": "heaped", "3": "heaping", "4": "heaped", "5": "heaps"},
+  {"1": "hear", "2": "heard", "3": "hearing", "4": "heard", "5": "hears"},
+  {"1": "heat", "2": "heated", "3": "heating", "4": "heated", "5": "heats"},
+  {"1": "heave", "2": "heaved", "3": "heaving", "4": "heaved", "5": "heaves"},
+  {"1": "help", "2": "helped", "3": "helping", "4": "helped", "5": "helps"},
+  {"1": "hew", "2": "hewed", "3": "hewing", "4": "hewed", "5": "hews"},
+  {"1": "hide", "2": "hidden", "3": "hiding", "4": "hid", "5": "hides"},
+  {"1": "hit", "2": "hit", "3": "hitting", "4": "hit", "5": "hits"},
+  {"1": "hold", "2": "held", "3": "holding", "4": "held", "5": "holds"},
+  {"1": "hook", "2": "hooked", "3": "hooking", "4": "hooked", "5": "hooks"},
+  {"1": "hop", "2": "hopped", "3": "hopping", "4": "hopped", "5": "hops"},
+  {"1": "hope", "2": "hoped", "3": "hoping", "4": "hoped", "5": "hopes"},
+  {"1": "hug", "2": "hugged", "3": "hugging", "4": "hugged", "5": "hugs"},
+  {"1": "hum", "2": "hummed", "3": "humming", "4": "hummed", "5": "hums"},
+  {"1": "hunt", "2": "hunted", "3": "hunting", "4": "hunted", "5": "hunts"},
   {
     "1": "hurry",
     "2": "hurried",
@@ -3063,13 +2031,7 @@ final List _verbs = [
     "4": "hurried",
     "5": "hurries"
   },
-  {
-    "1": "hurt",
-    "2": "hurt",
-    "3": "hurting",
-    "4": "hurt",
-    "5": "hurts"
-  },
+  {"1": "hurt", "2": "hurt", "3": "hurting", "4": "hurt", "5": "hurts"},
   {
     "1": "identify",
     "2": "identified",
@@ -3182,13 +2144,7 @@ final List _verbs = [
     "4": "injured",
     "5": "injures"
   },
-  {
-    "1": "inlay",
-    "2": "inlaid",
-    "3": "inlaying",
-    "4": "inlaid",
-    "5": "inlays"
-  },
+  {"1": "inlay", "2": "inlaid", "3": "inlaying", "4": "inlaid", "5": "inlays"},
   {
     "1": "input",
     "2": "inputted",
@@ -3336,55 +2292,13 @@ final List _verbs = [
     "4": "irritated",
     "5": "irritates"
   },
-  {
-    "1": "itch",
-    "2": "itched",
-    "3": "itching",
-    "4": "itched",
-    "5": "itches"
-  },
-  {
-    "1": "jail",
-    "2": "jailed",
-    "3": "jailing",
-    "4": "jailed",
-    "5": "jails"
-  },
-  {
-    "1": "jam",
-    "2": "jammed",
-    "3": "jamming",
-    "4": "jammed",
-    "5": "jams"
-  },
-  {
-    "1": "jog",
-    "2": "jogged",
-    "3": "jogging",
-    "4": "jogged",
-    "5": "jogs"
-  },
-  {
-    "1": "join",
-    "2": "joined",
-    "3": "joining",
-    "4": "joined",
-    "5": "joins"
-  },
-  {
-    "1": "joke",
-    "2": "joked",
-    "3": "joking",
-    "4": "joked",
-    "5": "jokes"
-  },
-  {
-    "1": "judge",
-    "2": "judged",
-    "3": "judging",
-    "4": "judged",
-    "5": "judges"
-  },
+  {"1": "itch", "2": "itched", "3": "itching", "4": "itched", "5": "itches"},
+  {"1": "jail", "2": "jailed", "3": "jailing", "4": "jailed", "5": "jails"},
+  {"1": "jam", "2": "jammed", "3": "jamming", "4": "jammed", "5": "jams"},
+  {"1": "jog", "2": "jogged", "3": "jogging", "4": "jogged", "5": "jogs"},
+  {"1": "join", "2": "joined", "3": "joining", "4": "joined", "5": "joins"},
+  {"1": "joke", "2": "joked", "3": "joking", "4": "joked", "5": "jokes"},
+  {"1": "judge", "2": "judged", "3": "judging", "4": "judged", "5": "judges"},
   {
     "1": "juggle",
     "2": "juggled",
@@ -3392,13 +2306,7 @@ final List _verbs = [
     "4": "juggled",
     "5": "juggles"
   },
-  {
-    "1": "jump",
-    "2": "jumped",
-    "3": "jumping",
-    "4": "jumped",
-    "5": "jumps"
-  },
+  {"1": "jump", "2": "jumped", "3": "jumping", "4": "jumped", "5": "jumps"},
   {
     "1": "justify",
     "2": "justified",
@@ -3406,48 +2314,12 @@ final List _verbs = [
     "4": "justified",
     "5": "justifies"
   },
-  {
-    "1": "keep",
-    "2": "kept",
-    "3": "keeping",
-    "4": "kept",
-    "5": "keeps"
-  },
-  {
-    "1": "kick",
-    "2": "kicked",
-    "3": "kicking",
-    "4": "kicked",
-    "5": "kicks"
-  },
-  {
-    "1": "kill",
-    "2": "killed",
-    "3": "killing",
-    "4": "killed",
-    "5": "kills"
-  },
-  {
-    "1": "kiss",
-    "2": "kissed",
-    "3": "kissing",
-    "4": "kissed",
-    "5": "kisses"
-  },
-  {
-    "1": "kneel",
-    "2": "knelt",
-    "3": "kneeling",
-    "4": "knelt",
-    "5": "kneels"
-  },
-  {
-    "1": "knit",
-    "2": "knitted",
-    "3": "knitting",
-    "4": "knitted",
-    "5": "knits"
-  },
+  {"1": "keep", "2": "kept", "3": "keeping", "4": "kept", "5": "keeps"},
+  {"1": "kick", "2": "kicked", "3": "kicking", "4": "kicked", "5": "kicks"},
+  {"1": "kill", "2": "killed", "3": "killing", "4": "killed", "5": "kills"},
+  {"1": "kiss", "2": "kissed", "3": "kissing", "4": "kissed", "5": "kisses"},
+  {"1": "kneel", "2": "knelt", "3": "kneeling", "4": "knelt", "5": "kneels"},
+  {"1": "knit", "2": "knitted", "3": "knitting", "4": "knitted", "5": "knits"},
   {
     "1": "knock",
     "2": "knocked",
@@ -3455,20 +2327,8 @@ final List _verbs = [
     "4": "knocked",
     "5": "knocks"
   },
-  {
-    "1": "knot",
-    "2": "knotted",
-    "3": "knotting",
-    "4": "knotted",
-    "5": "knots"
-  },
-  {
-    "1": "know",
-    "2": "known",
-    "3": "knowing",
-    "4": "knew",
-    "5": "knows"
-  },
+  {"1": "knot", "2": "knotted", "3": "knotting", "4": "knotted", "5": "knots"},
+  {"1": "know", "2": "known", "3": "knowing", "4": "knew", "5": "knows"},
   {
     "1": "label",
     "2": "UK,someUS",
@@ -3476,20 +2336,8 @@ final List _verbs = [
     "4": "UK,someUS",
     "5": "labels"
   },
-  {
-    "1": "land",
-    "2": "landed",
-    "3": "landing",
-    "4": "landed",
-    "5": "lands"
-  },
-  {
-    "1": "last",
-    "2": "lasted",
-    "3": "lasting",
-    "4": "lasted",
-    "5": "lasts"
-  },
+  {"1": "land", "2": "landed", "3": "landing", "4": "landed", "5": "lands"},
+  {"1": "last", "2": "lasted", "3": "lasting", "4": "lasted", "5": "lasts"},
   {
     "1": "laugh",
     "2": "obsolete",
@@ -3504,34 +2352,10 @@ final List _verbs = [
     "4": "launched",
     "5": "launches"
   },
-  {
-    "1": "lay",
-    "2": "laid",
-    "3": "laying",
-    "4": "laid",
-    "5": "lays"
-  },
-  {
-    "1": "lead",
-    "2": "leaded",
-    "3": "leading",
-    "4": "leaded",
-    "5": "leads"
-  },
-  {
-    "1": "lean",
-    "2": "leaned",
-    "3": "leaning",
-    "4": "leaned",
-    "5": "leans"
-  },
-  {
-    "1": "leap",
-    "2": "leaped",
-    "3": "leaping",
-    "4": "leaped",
-    "5": "leaps"
-  },
+  {"1": "lay", "2": "laid", "3": "laying", "4": "laid", "5": "lays"},
+  {"1": "lead", "2": "leaded", "3": "leading", "4": "leaded", "5": "leads"},
+  {"1": "lean", "2": "leaned", "3": "leaning", "4": "leaned", "5": "leans"},
+  {"1": "leap", "2": "leaped", "3": "leaping", "4": "leaped", "5": "leaps"},
   {
     "1": "learn",
     "2": "learned",
@@ -3539,13 +2363,7 @@ final List _verbs = [
     "4": "learned",
     "5": "learns"
   },
-  {
-    "1": "leave",
-    "2": "left",
-    "3": "leaving",
-    "4": "left",
-    "5": "leaves"
-  },
+  {"1": "leave", "2": "left", "3": "leaving", "4": "left", "5": "leaves"},
   {
     "1": "lecture",
     "2": "lectured",
@@ -3553,20 +2371,8 @@ final List _verbs = [
     "4": "lectured",
     "5": "lectures"
   },
-  {
-    "1": "lend",
-    "2": "lent",
-    "3": "lending",
-    "4": "lent",
-    "5": "lends"
-  },
-  {
-    "1": "let",
-    "2": "let",
-    "3": "letting",
-    "4": "let",
-    "5": "lets"
-  },
+  {"1": "lend", "2": "lent", "3": "lending", "4": "lent", "5": "lends"},
+  {"1": "let", "2": "let", "3": "letting", "4": "let", "5": "lets"},
   {
     "1": "level",
     "2": "leveled",
@@ -3581,27 +2387,9 @@ final List _verbs = [
     "4": "licensed",
     "5": "licenses"
   },
-  {
-    "1": "lick",
-    "2": "licked",
-    "3": "licking",
-    "4": "licked",
-    "5": "licks"
-  },
-  {
-    "1": "lie",
-    "2": "lain",
-    "3": "lying",
-    "4": "lay",
-    "5": "lies"
-  },
-  {
-    "1": "light",
-    "2": "lit",
-    "3": "lighting",
-    "4": "lit",
-    "5": "lights"
-  },
+  {"1": "lick", "2": "licked", "3": "licking", "4": "licked", "5": "licks"},
+  {"1": "lie", "2": "lain", "3": "lying", "4": "lay", "5": "lies"},
+  {"1": "light", "2": "lit", "3": "lighting", "4": "lit", "5": "lights"},
   {
     "1": "lighten",
     "2": "lightened",
@@ -3609,20 +2397,8 @@ final List _verbs = [
     "4": "lightened",
     "5": "lightens"
   },
-  {
-    "1": "like",
-    "2": "liked",
-    "3": "liking",
-    "4": "liked",
-    "5": "likes"
-  },
-  {
-    "1": "list",
-    "2": "listed",
-    "3": "listing",
-    "4": "listed",
-    "5": "lists"
-  },
+  {"1": "like", "2": "liked", "3": "liking", "4": "liked", "5": "likes"},
+  {"1": "list", "2": "listed", "3": "listing", "4": "listed", "5": "lists"},
   {
     "1": "listen",
     "2": "listened",
@@ -3630,20 +2406,8 @@ final List _verbs = [
     "4": "listened",
     "5": "listens"
   },
-  {
-    "1": "live",
-    "2": "lived",
-    "3": "living",
-    "4": "lived",
-    "5": "lives"
-  },
-  {
-    "1": "load",
-    "2": "loaded",
-    "3": "loading",
-    "4": "loaded",
-    "5": "loads"
-  },
+  {"1": "live", "2": "lived", "3": "living", "4": "lived", "5": "lives"},
+  {"1": "load", "2": "loaded", "3": "loading", "4": "loaded", "5": "loads"},
   {
     "1": "locate",
     "2": "located",
@@ -3651,48 +2415,12 @@ final List _verbs = [
     "4": "located",
     "5": "locates"
   },
-  {
-    "1": "lock",
-    "2": "locked",
-    "3": "locking",
-    "4": "locked",
-    "5": "locks"
-  },
-  {
-    "1": "log",
-    "2": "logged",
-    "3": "logging",
-    "4": "logged",
-    "5": "logs"
-  },
-  {
-    "1": "long",
-    "2": "longed",
-    "3": "longing",
-    "4": "longed",
-    "5": "longs"
-  },
-  {
-    "1": "look",
-    "2": "looked",
-    "3": "looking",
-    "4": "looked",
-    "5": "looks"
-  },
-  {
-    "1": "lose",
-    "2": "lost",
-    "3": "losing",
-    "4": "lost",
-    "5": "loses"
-  },
-  {
-    "1": "love",
-    "2": "loved",
-    "3": "loving",
-    "4": "loved",
-    "5": "loves"
-  },
+  {"1": "lock", "2": "locked", "3": "locking", "4": "locked", "5": "locks"},
+  {"1": "log", "2": "logged", "3": "logging", "4": "logged", "5": "logs"},
+  {"1": "long", "2": "longed", "3": "longing", "4": "longed", "5": "longs"},
+  {"1": "look", "2": "looked", "3": "looking", "4": "looked", "5": "looks"},
+  {"1": "lose", "2": "lost", "3": "losing", "4": "lost", "5": "loses"},
+  {"1": "love", "2": "loved", "3": "loving", "4": "loved", "5": "loves"},
   {
     "1": "maintain",
     "2": "maintained",
@@ -3700,20 +2428,8 @@ final List _verbs = [
     "4": "maintained",
     "5": "maintains"
   },
-  {
-    "1": "make",
-    "2": "made",
-    "3": "making",
-    "4": "made",
-    "5": "makes"
-  },
-  {
-    "1": "man",
-    "2": "manned",
-    "3": "manning",
-    "4": "manned",
-    "5": "mans"
-  },
+  {"1": "make", "2": "made", "3": "making", "4": "made", "5": "makes"},
+  {"1": "man", "2": "manned", "3": "manning", "4": "manned", "5": "mans"},
   {
     "1": "manage",
     "2": "managed",
@@ -3735,13 +2451,7 @@ final List _verbs = [
     "4": "manufactured",
     "5": "manufactures"
   },
-  {
-    "1": "map",
-    "2": "mapped",
-    "3": "mapping",
-    "4": "mapped",
-    "5": "maps"
-  },
+  {"1": "map", "2": "mapped", "3": "mapping", "4": "mapped", "5": "maps"},
   {
     "1": "march",
     "2": "marched",
@@ -3749,13 +2459,7 @@ final List _verbs = [
     "4": "marched",
     "5": "marches"
   },
-  {
-    "1": "mark",
-    "2": "marked",
-    "3": "marking",
-    "4": "marked",
-    "5": "marks"
-  },
+  {"1": "mark", "2": "marked", "3": "marking", "4": "marked", "5": "marks"},
   {
     "1": "market",
     "2": "marketed",
@@ -3777,13 +2481,7 @@ final List _verbs = [
     "4": "matched",
     "5": "matches"
   },
-  {
-    "1": "mate",
-    "2": "mated",
-    "3": "mating",
-    "4": "mated",
-    "5": "mates"
-  },
+  {"1": "mate", "2": "mated", "3": "mating", "4": "mated", "5": "mates"},
   {
     "1": "matter",
     "2": "mattered",
@@ -3791,20 +2489,8 @@ final List _verbs = [
     "4": "mattered",
     "5": "matters"
   },
-  {
-    "1": "may",
-    "2": null,
-    "3": null,
-    "4": "might",
-    "5": "may"
-  },
-  {
-    "1": "mean",
-    "2": "meant",
-    "3": "meaning",
-    "4": "meant",
-    "5": "means"
-  },
+  {"1": "may", "2": null, "3": null, "4": "might", "5": "may"},
+  {"1": "mean", "2": "meant", "3": "meaning", "4": "meant", "5": "means"},
   {
     "1": "measure",
     "2": "measured",
@@ -3826,20 +2512,8 @@ final List _verbs = [
     "4": "mediated",
     "5": "mediates"
   },
-  {
-    "1": "meet",
-    "2": "met",
-    "3": "meeting",
-    "4": "met",
-    "5": "meets"
-  },
-  {
-    "1": "melt",
-    "2": "melted",
-    "3": "melting",
-    "4": "melted",
-    "5": "melts"
-  },
+  {"1": "meet", "2": "met", "3": "meeting", "4": "met", "5": "meets"},
+  {"1": "melt", "2": "melted", "3": "melting", "4": "melted", "5": "melts"},
   {
     "1": "memorize",
     "2": "memorized",
@@ -3847,13 +2521,7 @@ final List _verbs = [
     "4": "memorized",
     "5": "memorizes"
   },
-  {
-    "1": "mend",
-    "2": "mended",
-    "3": "mending",
-    "4": "mended",
-    "5": "mends"
-  },
+  {"1": "mend", "2": "mended", "3": "mending", "4": "mended", "5": "mends"},
   {
     "1": "mentor",
     "2": "mentored",
@@ -3861,20 +2529,8 @@ final List _verbs = [
     "4": "mentored",
     "5": "mentors"
   },
-  {
-    "1": "milk",
-    "2": "milked",
-    "3": "milking",
-    "4": "milked",
-    "5": "milks"
-  },
-  {
-    "1": "mine",
-    "2": "mined",
-    "3": "mining",
-    "4": "mined",
-    "5": "mines"
-  },
+  {"1": "milk", "2": "milked", "3": "milking", "4": "milked", "5": "milks"},
+  {"1": "mine", "2": "mined", "3": "mining", "4": "mined", "5": "mines"},
   {
     "1": "mislead",
     "2": "misled",
@@ -3882,13 +2538,7 @@ final List _verbs = [
     "4": "misled",
     "5": "misleads"
   },
-  {
-    "1": "miss",
-    "2": "missed",
-    "3": "missing",
-    "4": "missed",
-    "5": "misses"
-  },
+  {"1": "miss", "2": "missed", "3": "missing", "4": "missed", "5": "misses"},
   {
     "1": "misspell",
     "2": "misspelt",
@@ -3910,20 +2560,8 @@ final List _verbs = [
     "4": "misunderstood",
     "5": "misunderstands"
   },
-  {
-    "1": "mix",
-    "2": "mixed",
-    "3": "mixing",
-    "4": "mixed",
-    "5": "mixes"
-  },
-  {
-    "1": "moan",
-    "2": "moaned",
-    "3": "moaning",
-    "4": "moaned",
-    "5": "moans"
-  },
+  {"1": "mix", "2": "mixed", "3": "mixing", "4": "mixed", "5": "mixes"},
+  {"1": "moan", "2": "moaned", "3": "moaning", "4": "moaned", "5": "moans"},
   {
     "1": "model",
     "2": "modelled",
@@ -3945,13 +2583,7 @@ final List _verbs = [
     "4": "monitored",
     "5": "monitors"
   },
-  {
-    "1": "moor",
-    "2": "moored",
-    "3": "mooring",
-    "4": "moored",
-    "5": "moors"
-  },
+  {"1": "moor", "2": "moored", "3": "mooring", "4": "moored", "5": "moors"},
   {
     "1": "mourn",
     "2": "mourned",
@@ -3959,13 +2591,7 @@ final List _verbs = [
     "4": "mourned",
     "5": "mourns"
   },
-  {
-    "1": "mow",
-    "2": "mowed",
-    "3": "mowing",
-    "4": "mowed",
-    "5": "mows"
-  },
+  {"1": "mow", "2": "mowed", "3": "mowing", "4": "mowed", "5": "mows"},
   {
     "1": "muddle",
     "2": "muddled",
@@ -3973,13 +2599,7 @@ final List _verbs = [
     "4": "muddled",
     "5": "muddles"
   },
-  {
-    "1": "mug",
-    "2": "mugged",
-    "3": "mugging",
-    "4": "mugged",
-    "5": "mugs"
-  },
+  {"1": "mug", "2": "mugged", "3": "mugging", "4": "mugged", "5": "mugs"},
   {
     "1": "multiply",
     "2": "multiplied",
@@ -3994,20 +2614,8 @@ final List _verbs = [
     "4": "murdered",
     "5": "murders"
   },
-  {
-    "1": "nail",
-    "2": "nailed",
-    "3": "nailing",
-    "4": "nailed",
-    "5": "nails"
-  },
-  {
-    "1": "name",
-    "2": "named",
-    "3": "naming",
-    "4": "named",
-    "5": "names"
-  },
+  {"1": "nail", "2": "nailed", "3": "nailing", "4": "nailed", "5": "nails"},
+  {"1": "name", "2": "named", "3": "naming", "4": "named", "5": "names"},
   {
     "1": "navigate",
     "2": "navigated",
@@ -4015,13 +2623,7 @@ final List _verbs = [
     "4": "navigated",
     "5": "navigates"
   },
-  {
-    "1": "need",
-    "2": "needed",
-    "3": "needing",
-    "4": "needed",
-    "5": "needs"
-  },
+  {"1": "need", "2": "needed", "3": "needing", "4": "needed", "5": "needs"},
   {
     "1": "negotiate",
     "2": "negotiated",
@@ -4029,20 +2631,8 @@ final List _verbs = [
     "4": "negotiated",
     "5": "negotiates"
   },
-  {
-    "1": "nest",
-    "2": "nested",
-    "3": "nesting",
-    "4": "nested",
-    "5": "nests"
-  },
-  {
-    "1": "nod",
-    "2": "nodd",
-    "3": "nodding",
-    "4": "nodd",
-    "5": "nods"
-  },
+  {"1": "nest", "2": "nested", "3": "nesting", "4": "nested", "5": "nests"},
+  {"1": "nod", "2": "nodd", "3": "nodding", "4": "nodd", "5": "nods"},
   {
     "1": "nominate",
     "2": "nominated",
@@ -4057,13 +2647,7 @@ final List _verbs = [
     "4": "normalized",
     "5": "normalizes"
   },
-  {
-    "1": "note",
-    "2": "noted",
-    "3": "noting",
-    "4": "noted",
-    "5": "notes"
-  },
+  {"1": "note", "2": "noted", "3": "noting", "4": "noted", "5": "notes"},
   {
     "1": "notice",
     "2": "noticed",
@@ -4078,13 +2662,7 @@ final List _verbs = [
     "4": "numbered",
     "5": "numbers"
   },
-  {
-    "1": "obey",
-    "2": "obeyed",
-    "3": "obeying",
-    "4": "obeyed",
-    "5": "obeys"
-  },
+  {"1": "obey", "2": "obeyed", "3": "obeying", "4": "obeyed", "5": "obeys"},
   {
     "1": "object",
     "2": "objected",
@@ -4204,27 +2782,9 @@ final List _verbs = [
     "4": "overthrew",
     "5": "overthrows"
   },
-  {
-    "1": "owe",
-    "2": "owed",
-    "3": "owing",
-    "4": "owed",
-    "5": "owes"
-  },
-  {
-    "1": "own",
-    "2": "owned",
-    "3": "owning",
-    "4": "owned",
-    "5": "owns"
-  },
-  {
-    "1": "pack",
-    "2": "packed",
-    "3": "packing",
-    "4": "packed",
-    "5": "packs"
-  },
+  {"1": "owe", "2": "owed", "3": "owing", "4": "owed", "5": "owes"},
+  {"1": "own", "2": "owned", "3": "owning", "4": "owned", "5": "owns"},
+  {"1": "pack", "2": "packed", "3": "packing", "4": "packed", "5": "packs"},
   {
     "1": "paddle",
     "2": "paddled",
@@ -4239,20 +2799,8 @@ final List _verbs = [
     "4": "painted",
     "5": "paints"
   },
-  {
-    "1": "park",
-    "2": "parked",
-    "3": "parking",
-    "4": "parked",
-    "5": "parks"
-  },
-  {
-    "1": "part",
-    "2": "parted",
-    "3": "parting",
-    "4": "parted",
-    "5": "parts"
-  },
+  {"1": "park", "2": "parked", "3": "parking", "4": "parked", "5": "parks"},
+  {"1": "part", "2": "parted", "3": "parting", "4": "parted", "5": "parts"},
   {
     "1": "participate",
     "2": "participated",
@@ -4260,48 +2808,12 @@ final List _verbs = [
     "4": "participated",
     "5": "participates"
   },
-  {
-    "1": "pass",
-    "2": "passed",
-    "3": "passing",
-    "4": "passed",
-    "5": "passes"
-  },
-  {
-    "1": "paste",
-    "2": "pasted",
-    "3": "pasting",
-    "4": "pasted",
-    "5": "pastes"
-  },
-  {
-    "1": "pat",
-    "2": "patted",
-    "3": "patting",
-    "4": "patted",
-    "5": "pats"
-  },
-  {
-    "1": "pause",
-    "2": "paused",
-    "3": "pausing",
-    "4": "paused",
-    "5": "pauses"
-  },
-  {
-    "1": "pay",
-    "2": "paid",
-    "3": "paying",
-    "4": "paid",
-    "5": "pays"
-  },
-  {
-    "1": "peck",
-    "2": "pecked",
-    "3": "pecking",
-    "4": "pecked",
-    "5": "pecks"
-  },
+  {"1": "pass", "2": "passed", "3": "passing", "4": "passed", "5": "passes"},
+  {"1": "paste", "2": "pasted", "3": "pasting", "4": "pasted", "5": "pastes"},
+  {"1": "pat", "2": "patted", "3": "patting", "4": "patted", "5": "pats"},
+  {"1": "pause", "2": "paused", "3": "pausing", "4": "paused", "5": "pauses"},
+  {"1": "pay", "2": "paid", "3": "paying", "4": "paid", "5": "pays"},
+  {"1": "peck", "2": "pecked", "3": "pecking", "4": "pecked", "5": "pecks"},
   {
     "1": "pedal",
     "2": "pedalled",
@@ -4309,27 +2821,9 @@ final List _verbs = [
     "4": "pedalled",
     "5": "pedals"
   },
-  {
-    "1": "peel",
-    "2": "peeled",
-    "3": "peeling",
-    "4": "peeled",
-    "5": "peels"
-  },
-  {
-    "1": "peep",
-    "2": "peeped",
-    "3": "peeping",
-    "4": "peeped",
-    "5": "peeps"
-  },
-  {
-    "1": "pen",
-    "2": "penned",
-    "3": "penning",
-    "4": "penned",
-    "5": "pens"
-  },
+  {"1": "peel", "2": "peeled", "3": "peeling", "4": "peeled", "5": "peels"},
+  {"1": "peep", "2": "peeped", "3": "peeping", "4": "peeped", "5": "peeps"},
+  {"1": "pen", "2": "penned", "3": "penning", "4": "penned", "5": "pens"},
   {
     "1": "perceive",
     "2": "perceived",
@@ -4365,13 +2859,7 @@ final List _verbs = [
     "4": "persuaded",
     "5": "persuades"
   },
-  {
-    "1": "phone",
-    "2": "phoned",
-    "3": "phoning",
-    "4": "phoned",
-    "5": "phones"
-  },
+  {"1": "phone", "2": "phoned", "3": "phoning", "4": "phoned", "5": "phones"},
   {
     "1": "photograph",
     "2": "photographed",
@@ -4379,13 +2867,7 @@ final List _verbs = [
     "4": "photographed",
     "5": "photographs"
   },
-  {
-    "1": "pick",
-    "2": "picked",
-    "3": "picking",
-    "4": "picked",
-    "5": "picks"
-  },
+  {"1": "pick", "2": "picked", "3": "picking", "4": "picked", "5": "picks"},
   {
     "1": "pilot",
     "2": "piloted",
@@ -4400,13 +2882,7 @@ final List _verbs = [
     "4": "pinched",
     "5": "pinches"
   },
-  {
-    "1": "pine",
-    "2": "pined",
-    "3": "pining",
-    "4": "pined",
-    "5": "pines"
-  },
+  {"1": "pine", "2": "pined", "3": "pining", "4": "pined", "5": "pines"},
   {
     "1": "pinpoint",
     "2": "pinpointed",
@@ -4421,20 +2897,8 @@ final List _verbs = [
     "4": "pioneered",
     "5": "pioneers"
   },
-  {
-    "1": "place",
-    "2": "placed",
-    "3": "placing",
-    "4": "placed",
-    "5": "places"
-  },
-  {
-    "1": "plan",
-    "2": "planned",
-    "3": "planning",
-    "4": "planned",
-    "5": "plans"
-  },
+  {"1": "place", "2": "placed", "3": "placing", "4": "placed", "5": "places"},
+  {"1": "plan", "2": "planned", "3": "planning", "4": "planned", "5": "plans"},
   {
     "1": "plant",
     "2": "planted",
@@ -4442,20 +2906,8 @@ final List _verbs = [
     "4": "planted",
     "5": "plants"
   },
-  {
-    "1": "play",
-    "2": "played",
-    "3": "playing",
-    "4": "played",
-    "5": "plays"
-  },
-  {
-    "1": "plead",
-    "2": "pled",
-    "3": "pleading",
-    "4": "pled",
-    "5": "pleads"
-  },
+  {"1": "play", "2": "played", "3": "playing", "4": "played", "5": "plays"},
+  {"1": "plead", "2": "pled", "3": "pleading", "4": "pled", "5": "pleads"},
   {
     "1": "please",
     "2": "pleased",
@@ -4463,13 +2915,7 @@ final List _verbs = [
     "4": "pleased",
     "5": "pleases"
   },
-  {
-    "1": "plug",
-    "2": "plugged",
-    "3": "plugging",
-    "4": "plugged",
-    "5": "plugs"
-  },
+  {"1": "plug", "2": "plugged", "3": "plugging", "4": "plugged", "5": "plugs"},
   {
     "1": "point",
     "2": "pointed",
@@ -4477,13 +2923,7 @@ final List _verbs = [
     "4": "pointed",
     "5": "points"
   },
-  {
-    "1": "poke",
-    "2": "poked",
-    "3": "poking",
-    "4": "poked",
-    "5": "pokes"
-  },
+  {"1": "poke", "2": "poked", "3": "poking", "4": "poked", "5": "pokes"},
   {
     "1": "polish",
     "2": "polished",
@@ -4491,13 +2931,7 @@ final List _verbs = [
     "4": "polished",
     "5": "polishes"
   },
-  {
-    "1": "pop",
-    "2": "popped",
-    "3": "popping",
-    "4": "popped",
-    "5": "pops"
-  },
+  {"1": "pop", "2": "popped", "3": "popping", "4": "popped", "5": "pops"},
   {
     "1": "possess",
     "2": "possessed",
@@ -4505,20 +2939,8 @@ final List _verbs = [
     "4": "possessed",
     "5": "possesses"
   },
-  {
-    "1": "post",
-    "2": "posted",
-    "3": "posting",
-    "4": "posted",
-    "5": "posts"
-  },
-  {
-    "1": "pour",
-    "2": "poured",
-    "3": "pouring",
-    "4": "poured",
-    "5": "pours"
-  },
+  {"1": "post", "2": "posted", "3": "posting", "4": "posted", "5": "posts"},
+  {"1": "pour", "2": "poured", "3": "pouring", "4": "poured", "5": "pours"},
   {
     "1": "practice",
     "2": "practiced",
@@ -4526,13 +2948,7 @@ final List _verbs = [
     "4": "practiced",
     "5": "practices"
   },
-  {
-    "1": "pray",
-    "2": "prayed",
-    "3": "praying",
-    "4": "prayed",
-    "5": "prays"
-  },
+  {"1": "pray", "2": "prayed", "3": "praying", "4": "prayed", "5": "prays"},
   {
     "1": "preach",
     "2": "preached",
@@ -4715,13 +3131,7 @@ final List _verbs = [
     "4": "protected",
     "5": "protects"
   },
-  {
-    "1": "prove",
-    "2": "proved",
-    "3": "proving",
-    "4": "proved",
-    "5": "proves"
-  },
+  {"1": "prove", "2": "proved", "3": "proving", "4": "proved", "5": "proves"},
   {
     "1": "provide",
     "2": "provided",
@@ -4736,20 +3146,8 @@ final List _verbs = [
     "4": "publicized",
     "5": "publicizes"
   },
-  {
-    "1": "pull",
-    "2": "pulled",
-    "3": "pulling",
-    "4": "pulled",
-    "5": "pulls"
-  },
-  {
-    "1": "pump",
-    "2": "pumped",
-    "3": "pumping",
-    "4": "pumped",
-    "5": "pumps"
-  },
+  {"1": "pull", "2": "pulled", "3": "pulling", "4": "pulled", "5": "pulls"},
+  {"1": "pump", "2": "pumped", "3": "pumping", "4": "pumped", "5": "pumps"},
   {
     "1": "punch",
     "2": "punched",
@@ -4778,20 +3176,8 @@ final List _verbs = [
     "4": "purchased",
     "5": "purchases"
   },
-  {
-    "1": "push",
-    "2": "pushed",
-    "3": "pushing",
-    "4": "pushed",
-    "5": "pushes"
-  },
-  {
-    "1": "put",
-    "2": "put",
-    "3": "putting",
-    "4": "put",
-    "5": "puts"
-  },
+  {"1": "push", "2": "pushed", "3": "pushing", "4": "pushed", "5": "pushes"},
+  {"1": "put", "2": "put", "3": "putting", "4": "put", "5": "puts"},
   {
     "1": "qualify",
     "2": "qualified",
@@ -4806,27 +3192,9 @@ final List _verbs = [
     "4": "questioned",
     "5": "questions"
   },
-  {
-    "1": "queue",
-    "2": "queued",
-    "3": "queueing",
-    "4": "queued",
-    "5": "queues"
-  },
-  {
-    "1": "quit",
-    "2": "quitted",
-    "3": "quitting",
-    "4": "quitted",
-    "5": "quits"
-  },
-  {
-    "1": "race",
-    "2": "raced",
-    "3": "racing",
-    "4": "raced",
-    "5": "races"
-  },
+  {"1": "queue", "2": "queued", "3": "queueing", "4": "queued", "5": "queues"},
+  {"1": "quit", "2": "quitted", "3": "quitting", "4": "quitted", "5": "quits"},
+  {"1": "race", "2": "raced", "3": "racing", "4": "raced", "5": "races"},
   {
     "1": "radiate",
     "2": "radiated",
@@ -4834,41 +3202,11 @@ final List _verbs = [
     "4": "radiated",
     "5": "radiates"
   },
-  {
-    "1": "rain",
-    "2": "rained",
-    "3": "raining",
-    "4": "rained",
-    "5": "rains"
-  },
-  {
-    "1": "raise",
-    "2": "raised",
-    "3": "raising",
-    "4": "raised",
-    "5": "raises"
-  },
-  {
-    "1": "rank",
-    "2": "ranked",
-    "3": "ranking",
-    "4": "ranked",
-    "5": "ranks"
-  },
-  {
-    "1": "rate",
-    "2": "rated",
-    "3": "rating",
-    "4": "rated",
-    "5": "rates"
-  },
-  {
-    "1": "ray",
-    "2": "rayed",
-    "3": "raying",
-    "4": "rayed",
-    "5": "rays"
-  },
+  {"1": "rain", "2": "rained", "3": "raining", "4": "rained", "5": "rains"},
+  {"1": "raise", "2": "raised", "3": "raising", "4": "raised", "5": "raises"},
+  {"1": "rank", "2": "ranked", "3": "ranking", "4": "ranked", "5": "ranks"},
+  {"1": "rate", "2": "rated", "3": "rating", "4": "rated", "5": "rates"},
+  {"1": "ray", "2": "rayed", "3": "raying", "4": "rayed", "5": "rays"},
   {
     "1": "reach",
     "2": "archaic",
@@ -4876,13 +3214,7 @@ final List _verbs = [
     "4": "reached",
     "5": "reaches"
   },
-  {
-    "1": "read",
-    "2": "read",
-    "3": "reading",
-    "4": "read",
-    "5": "reads"
-  },
+  {"1": "read", "2": "read", "3": "reading", "4": "read", "5": "reads"},
   {
     "1": "realize",
     "2": "realized",
@@ -5198,132 +3530,24 @@ final List _verbs = [
     "4": "revised",
     "5": "revises"
   },
-  {
-    "1": "rhyme",
-    "2": "rhymed",
-    "3": "rhyming",
-    "4": "rhymed",
-    "5": "rhymes"
-  },
-  {
-    "1": "rid",
-    "2": "rid",
-    "3": "ridding",
-    "4": "ridded",
-    "5": "rids"
-  },
-  {
-    "1": "ride",
-    "2": "ridden",
-    "3": "riding",
-    "4": "rode",
-    "5": "rides"
-  },
-  {
-    "1": "ring",
-    "2": "ringed",
-    "3": "ringing",
-    "4": "ringed",
-    "5": "rings"
-  },
-  {
-    "1": "rinse",
-    "2": "rinsed",
-    "3": "rinsing",
-    "4": "rinsed",
-    "5": "rinses"
-  },
-  {
-    "1": "rise",
-    "2": "risen",
-    "3": "rising",
-    "4": "rose",
-    "5": "rises"
-  },
-  {
-    "1": "risk",
-    "2": "risked",
-    "3": "risking",
-    "4": "risked",
-    "5": "risks"
-  },
-  {
-    "1": "rob",
-    "2": "robbed",
-    "3": "robbing",
-    "4": "robbed",
-    "5": "robs"
-  },
-  {
-    "1": "rock",
-    "2": "rocked",
-    "3": "rocking",
-    "4": "rocked",
-    "5": "rocks"
-  },
-  {
-    "1": "roll",
-    "2": "rolled",
-    "3": "rolling",
-    "4": "rolled",
-    "5": "rolls"
-  },
-  {
-    "1": "rot",
-    "2": "rotten",
-    "3": "rotting",
-    "4": "rotted",
-    "5": "rots"
-  },
-  {
-    "1": "rub",
-    "2": "rubbed",
-    "3": "rubbing",
-    "4": "rubbed",
-    "5": "rubs"
-  },
-  {
-    "1": "ruin",
-    "2": "ruined",
-    "3": "ruining",
-    "4": "ruined",
-    "5": "ruins"
-  },
-  {
-    "1": "rule",
-    "2": "ruled",
-    "3": "ruling",
-    "4": "ruled",
-    "5": "rules"
-  },
-  {
-    "1": "run",
-    "2": "run",
-    "3": "running",
-    "4": "ran",
-    "5": "runs"
-  },
-  {
-    "1": "rush",
-    "2": "rushed",
-    "3": "rushing",
-    "4": "rushed",
-    "5": "rushes"
-  },
-  {
-    "1": "sack",
-    "2": "sacked",
-    "3": "sacking",
-    "4": "sacked",
-    "5": "sacks"
-  },
-  {
-    "1": "sail",
-    "2": "sailed",
-    "3": "sailing",
-    "4": "sailed",
-    "5": "sails"
-  },
+  {"1": "rhyme", "2": "rhymed", "3": "rhyming", "4": "rhymed", "5": "rhymes"},
+  {"1": "rid", "2": "rid", "3": "ridding", "4": "ridded", "5": "rids"},
+  {"1": "ride", "2": "ridden", "3": "riding", "4": "rode", "5": "rides"},
+  {"1": "ring", "2": "ringed", "3": "ringing", "4": "ringed", "5": "rings"},
+  {"1": "rinse", "2": "rinsed", "3": "rinsing", "4": "rinsed", "5": "rinses"},
+  {"1": "rise", "2": "risen", "3": "rising", "4": "rose", "5": "rises"},
+  {"1": "risk", "2": "risked", "3": "risking", "4": "risked", "5": "risks"},
+  {"1": "rob", "2": "robbed", "3": "robbing", "4": "robbed", "5": "robs"},
+  {"1": "rock", "2": "rocked", "3": "rocking", "4": "rocked", "5": "rocks"},
+  {"1": "roll", "2": "rolled", "3": "rolling", "4": "rolled", "5": "rolls"},
+  {"1": "rot", "2": "rotten", "3": "rotting", "4": "rotted", "5": "rots"},
+  {"1": "rub", "2": "rubbed", "3": "rubbing", "4": "rubbed", "5": "rubs"},
+  {"1": "ruin", "2": "ruined", "3": "ruining", "4": "ruined", "5": "ruins"},
+  {"1": "rule", "2": "ruled", "3": "ruling", "4": "ruled", "5": "rules"},
+  {"1": "run", "2": "run", "3": "running", "4": "ran", "5": "runs"},
+  {"1": "rush", "2": "rushed", "3": "rushing", "4": "rushed", "5": "rushes"},
+  {"1": "sack", "2": "sacked", "3": "sacking", "4": "sacked", "5": "sacks"},
+  {"1": "sail", "2": "sailed", "3": "sailing", "4": "sailed", "5": "sails"},
   {
     "1": "satisfy",
     "2": "satisfied",
@@ -5331,34 +3555,10 @@ final List _verbs = [
     "4": "satisfied",
     "5": "satisfies"
   },
-  {
-    "1": "save",
-    "2": "saved",
-    "3": "saving",
-    "4": "saved",
-    "5": "saves"
-  },
-  {
-    "1": "saw",
-    "2": "sawed",
-    "3": "sawing",
-    "4": "sawed",
-    "5": "saws"
-  },
-  {
-    "1": "say",
-    "2": "said",
-    "3": "saying",
-    "4": "said",
-    "5": "says"
-  },
-  {
-    "1": "scare",
-    "2": "scared",
-    "3": "scaring",
-    "4": "scared",
-    "5": "scares"
-  },
+  {"1": "save", "2": "saved", "3": "saving", "4": "saved", "5": "saves"},
+  {"1": "saw", "2": "sawed", "3": "sawing", "4": "sawed", "5": "saws"},
+  {"1": "say", "2": "said", "3": "saying", "4": "said", "5": "says"},
+  {"1": "scare", "2": "scared", "3": "scaring", "4": "scared", "5": "scares"},
   {
     "1": "scatter",
     "2": "scattered",
@@ -5429,13 +3629,7 @@ final List _verbs = [
     "4": "scrubbed",
     "5": "scrubs"
   },
-  {
-    "1": "seal",
-    "2": "sealed",
-    "3": "sealing",
-    "4": "sealed",
-    "5": "seals"
-  },
+  {"1": "seal", "2": "sealed", "3": "sealing", "4": "sealed", "5": "seals"},
   {
     "1": "search",
     "2": "searched",
@@ -5450,20 +3644,8 @@ final List _verbs = [
     "4": "secured",
     "5": "secures"
   },
-  {
-    "1": "see",
-    "2": "seen",
-    "3": "seeing",
-    "4": "saw",
-    "5": "sees"
-  },
-  {
-    "1": "seek",
-    "2": "sought",
-    "3": "seeking",
-    "4": "sought",
-    "5": "seeks"
-  },
+  {"1": "see", "2": "seen", "3": "seeing", "4": "saw", "5": "sees"},
+  {"1": "seek", "2": "sought", "3": "seeking", "4": "sought", "5": "seeks"},
   {
     "1": "select",
     "2": "selected",
@@ -5471,27 +3653,9 @@ final List _verbs = [
     "4": "selected",
     "5": "selects"
   },
-  {
-    "1": "sell",
-    "2": "sold",
-    "3": "selling",
-    "4": "sold",
-    "5": "sells"
-  },
-  {
-    "1": "send",
-    "2": "sent",
-    "3": "sending",
-    "4": "sent",
-    "5": "sends"
-  },
-  {
-    "1": "sense",
-    "2": "sensed",
-    "3": "sensing",
-    "4": "sensed",
-    "5": "senses"
-  },
+  {"1": "sell", "2": "sold", "3": "selling", "4": "sold", "5": "sells"},
+  {"1": "send", "2": "sent", "3": "sending", "4": "sent", "5": "sends"},
+  {"1": "sense", "2": "sensed", "3": "sensing", "4": "sensed", "5": "senses"},
   {
     "1": "separate",
     "2": "separated",
@@ -5499,13 +3663,7 @@ final List _verbs = [
     "4": "separated",
     "5": "separates"
   },
-  {
-    "1": "serve",
-    "2": "served",
-    "3": "serving",
-    "4": "served",
-    "5": "serves"
-  },
+  {"1": "serve", "2": "served", "3": "serving", "4": "served", "5": "serves"},
   {
     "1": "service",
     "2": "serviced",
@@ -5513,13 +3671,7 @@ final List _verbs = [
     "4": "serviced",
     "5": "services"
   },
-  {
-    "1": "set",
-    "2": "set",
-    "3": "setting",
-    "4": "set",
-    "5": "sets"
-  },
+  {"1": "set", "2": "set", "3": "setting", "4": "set", "5": "sets"},
   {
     "1": "settle",
     "2": "settled",
@@ -5527,62 +3679,14 @@ final List _verbs = [
     "4": "settled",
     "5": "settles"
   },
-  {
-    "1": "sew",
-    "2": "sewn",
-    "3": "sewing",
-    "4": "sewed",
-    "5": "sews"
-  },
-  {
-    "1": "shade",
-    "2": "shaded",
-    "3": "shading",
-    "4": "shaded",
-    "5": "shades"
-  },
-  {
-    "1": "shake",
-    "2": "shaken",
-    "3": "shaking",
-    "4": "shook",
-    "5": "shakes"
-  },
-  {
-    "1": "shape",
-    "2": "shaped",
-    "3": "shaping",
-    "4": "shaped",
-    "5": "shapes"
-  },
-  {
-    "1": "share",
-    "2": "shared",
-    "3": "sharing",
-    "4": "shared",
-    "5": "shares"
-  },
-  {
-    "1": "shave",
-    "2": "shaven",
-    "3": "shaving",
-    "4": "shove",
-    "5": "shaves"
-  },
-  {
-    "1": "shear",
-    "2": "shorn",
-    "3": "shearing",
-    "4": "sheared",
-    "5": "shears"
-  },
-  {
-    "1": "shed",
-    "2": "shed",
-    "3": "shedding",
-    "4": "shed",
-    "5": "sheds"
-  },
+  {"1": "sew", "2": "sewn", "3": "sewing", "4": "sewed", "5": "sews"},
+  {"1": "shade", "2": "shaded", "3": "shading", "4": "shaded", "5": "shades"},
+  {"1": "shake", "2": "shaken", "3": "shaking", "4": "shook", "5": "shakes"},
+  {"1": "shape", "2": "shaped", "3": "shaping", "4": "shaped", "5": "shapes"},
+  {"1": "share", "2": "shared", "3": "sharing", "4": "shared", "5": "shares"},
+  {"1": "shave", "2": "shaven", "3": "shaving", "4": "shove", "5": "shaves"},
+  {"1": "shear", "2": "shorn", "3": "shearing", "4": "sheared", "5": "shears"},
+  {"1": "shed", "2": "shed", "3": "shedding", "4": "shed", "5": "sheds"},
   {
     "1": "shelter",
     "2": "sheltered",
@@ -5590,13 +3694,7 @@ final List _verbs = [
     "4": "sheltered",
     "5": "shelters"
   },
-  {
-    "1": "shine",
-    "2": "shined",
-    "3": "shining",
-    "4": "shined",
-    "5": "shines"
-  },
+  {"1": "shine", "2": "shined", "3": "shining", "4": "shined", "5": "shines"},
   {
     "1": "shiver",
     "2": "shivered",
@@ -5611,34 +3709,10 @@ final List _verbs = [
     "4": "shocked",
     "5": "shocks"
   },
-  {
-    "1": "shoot",
-    "2": "shot",
-    "3": "shooting",
-    "4": "shot",
-    "5": "shoots"
-  },
-  {
-    "1": "shop",
-    "2": "shopped",
-    "3": "shopping",
-    "4": "shopped",
-    "5": "shops"
-  },
-  {
-    "1": "show",
-    "2": "shown",
-    "3": "showing",
-    "4": "showed",
-    "5": "shows"
-  },
-  {
-    "1": "shred",
-    "2": "shredd",
-    "3": "shredding",
-    "4": "shredd",
-    "5": "shreds"
-  },
+  {"1": "shoot", "2": "shot", "3": "shooting", "4": "shot", "5": "shoots"},
+  {"1": "shop", "2": "shopped", "3": "shopping", "4": "shopped", "5": "shops"},
+  {"1": "show", "2": "shown", "3": "showing", "4": "showed", "5": "shows"},
+  {"1": "shred", "2": "shredd", "3": "shredding", "4": "shredd", "5": "shreds"},
   {
     "1": "shrink",
     "2": "shrunk",
@@ -5653,27 +3727,9 @@ final List _verbs = [
     "4": "shrugged",
     "5": "shrugs"
   },
-  {
-    "1": "shut",
-    "2": "shut",
-    "3": "shutting",
-    "4": "shut",
-    "5": "shuts"
-  },
-  {
-    "1": "sigh",
-    "2": "sighed",
-    "3": "sighing",
-    "4": "sighed",
-    "5": "sighs"
-  },
-  {
-    "1": "sign",
-    "2": "signed",
-    "3": "signing",
-    "4": "signed",
-    "5": "signs"
-  },
+  {"1": "shut", "2": "shut", "3": "shutting", "4": "shut", "5": "shuts"},
+  {"1": "sigh", "2": "sighed", "3": "sighing", "4": "sighed", "5": "sighs"},
+  {"1": "sign", "2": "signed", "3": "signing", "4": "signed", "5": "signs"},
   {
     "1": "signal",
     "2": "signalled",
@@ -5688,41 +3744,11 @@ final List _verbs = [
     "4": "simplified",
     "5": "simplifies"
   },
-  {
-    "1": "sin",
-    "2": "sinned",
-    "3": "sinning",
-    "4": "sinned",
-    "5": "sins"
-  },
-  {
-    "1": "sing",
-    "2": "sung",
-    "3": "singing",
-    "4": "sang",
-    "5": "sings"
-  },
-  {
-    "1": "sink",
-    "2": "sunk",
-    "3": "sinking",
-    "4": "sank",
-    "5": "sinks"
-  },
-  {
-    "1": "sip",
-    "2": "sipped",
-    "3": "sipping",
-    "4": "sipped",
-    "5": "sips"
-  },
-  {
-    "1": "sit",
-    "2": "sat",
-    "3": "sitting",
-    "4": "sat",
-    "5": "sits"
-  },
+  {"1": "sin", "2": "sinned", "3": "sinning", "4": "sinned", "5": "sins"},
+  {"1": "sing", "2": "sung", "3": "singing", "4": "sang", "5": "sings"},
+  {"1": "sink", "2": "sunk", "3": "sinking", "4": "sank", "5": "sinks"},
+  {"1": "sip", "2": "sipped", "3": "sipping", "4": "sipped", "5": "sips"},
+  {"1": "sit", "2": "sat", "3": "sitting", "4": "sat", "5": "sits"},
   {
     "1": "sketch",
     "2": "sketched",
@@ -5730,83 +3756,17 @@ final List _verbs = [
     "4": "sketched",
     "5": "sketches"
   },
-  {
-    "1": "ski",
-    "2": "skied",
-    "3": "skiing",
-    "4": "skied",
-    "5": "skis"
-  },
-  {
-    "1": "skip",
-    "2": "skipped",
-    "3": "skipping",
-    "4": "skipped",
-    "5": "skips"
-  },
-  {
-    "1": "slap",
-    "2": "slapped",
-    "3": "slapping",
-    "4": "slapped",
-    "5": "slaps"
-  },
-  {
-    "1": "slay",
-    "2": "slain",
-    "3": "slaying",
-    "4": "slew",
-    "5": "slays"
-  },
-  {
-    "1": "sleep",
-    "2": "slept",
-    "3": "sleeping",
-    "4": "slept",
-    "5": "sleeps"
-  },
-  {
-    "1": "slide",
-    "2": "slid",
-    "3": "sliding",
-    "4": "slid",
-    "5": "slides"
-  },
-  {
-    "1": "sling",
-    "2": "slung",
-    "3": "slinging",
-    "4": "slung",
-    "5": "slings"
-  },
-  {
-    "1": "slink",
-    "2": "slunk",
-    "3": "slinking",
-    "4": "slunk",
-    "5": "slinks"
-  },
-  {
-    "1": "slip",
-    "2": "slipped",
-    "3": "slipping",
-    "4": "slipped",
-    "5": "slips"
-  },
-  {
-    "1": "slit",
-    "2": "slit",
-    "3": "slitting",
-    "4": "slit",
-    "5": "slits"
-  },
-  {
-    "1": "slow",
-    "2": "slowed",
-    "3": "slowing",
-    "4": "slowed",
-    "5": "slows"
-  },
+  {"1": "ski", "2": "skied", "3": "skiing", "4": "skied", "5": "skis"},
+  {"1": "skip", "2": "skipped", "3": "skipping", "4": "skipped", "5": "skips"},
+  {"1": "slap", "2": "slapped", "3": "slapping", "4": "slapped", "5": "slaps"},
+  {"1": "slay", "2": "slain", "3": "slaying", "4": "slew", "5": "slays"},
+  {"1": "sleep", "2": "slept", "3": "sleeping", "4": "slept", "5": "sleeps"},
+  {"1": "slide", "2": "slid", "3": "sliding", "4": "slid", "5": "slides"},
+  {"1": "sling", "2": "slung", "3": "slinging", "4": "slung", "5": "slings"},
+  {"1": "slink", "2": "slunk", "3": "slinking", "4": "slunk", "5": "slinks"},
+  {"1": "slip", "2": "slipped", "3": "slipping", "4": "slipped", "5": "slips"},
+  {"1": "slit", "2": "slit", "3": "slitting", "4": "slit", "5": "slits"},
+  {"1": "slow", "2": "slowed", "3": "slowing", "4": "slowed", "5": "slows"},
   {
     "1": "smash",
     "2": "smashed",
@@ -5821,20 +3781,8 @@ final List _verbs = [
     "4": "smelled",
     "5": "smells"
   },
-  {
-    "1": "smile",
-    "2": "smiled",
-    "3": "smiling",
-    "4": "smiled",
-    "5": "smiles"
-  },
-  {
-    "1": "smoke",
-    "2": "smoked",
-    "3": "smoking",
-    "4": "smoked",
-    "5": "smokes"
-  },
+  {"1": "smile", "2": "smiled", "3": "smiling", "4": "smiled", "5": "smiles"},
+  {"1": "smoke", "2": "smoked", "3": "smoking", "4": "smoked", "5": "smokes"},
   {
     "1": "snatch",
     "2": "snatched",
@@ -5863,34 +3811,10 @@ final List _verbs = [
     "4": "sniffed",
     "5": "sniffs"
   },
-  {
-    "1": "snore",
-    "2": "snored",
-    "3": "snoring",
-    "4": "snored",
-    "5": "snores"
-  },
-  {
-    "1": "snow",
-    "2": "snowed",
-    "3": "snowing",
-    "4": "snowed",
-    "5": "snows"
-  },
-  {
-    "1": "soak",
-    "2": "soaked",
-    "3": "soaking",
-    "4": "soaked",
-    "5": "soaks"
-  },
-  {
-    "1": "solve",
-    "2": "solved",
-    "3": "solving",
-    "4": "solved",
-    "5": "solves"
-  },
+  {"1": "snore", "2": "snored", "3": "snoring", "4": "snored", "5": "snores"},
+  {"1": "snow", "2": "snowed", "3": "snowing", "4": "snowed", "5": "snows"},
+  {"1": "soak", "2": "soaked", "3": "soaking", "4": "soaked", "5": "soaks"},
+  {"1": "solve", "2": "solved", "3": "solving", "4": "solved", "5": "solves"},
   {
     "1": "soothe",
     "2": "soothed",
@@ -5898,13 +3822,7 @@ final List _verbs = [
     "4": "soothed",
     "5": "soothes"
   },
-  {
-    "1": "sort",
-    "2": "sorted",
-    "3": "sorting",
-    "4": "sorted",
-    "5": "sorts"
-  },
+  {"1": "sort", "2": "sorted", "3": "sorting", "4": "sorted", "5": "sorts"},
   {
     "1": "sound",
     "2": "sounded",
@@ -5912,20 +3830,8 @@ final List _verbs = [
     "4": "sounded",
     "5": "sounds"
   },
-  {
-    "1": "sow",
-    "2": "sown",
-    "3": "sowing",
-    "4": "sowed",
-    "5": "sows"
-  },
-  {
-    "1": "spare",
-    "2": "spared",
-    "3": "sparing",
-    "4": "spared",
-    "5": "spares"
-  },
+  {"1": "sow", "2": "sown", "3": "sowing", "4": "sowed", "5": "sows"},
+  {"1": "spare", "2": "spared", "3": "sparing", "4": "spared", "5": "spares"},
   {
     "1": "spark",
     "2": "sparked",
@@ -5954,13 +3860,7 @@ final List _verbs = [
     "4": "specified",
     "5": "specifies"
   },
-  {
-    "1": "speed",
-    "2": "sped",
-    "3": "speeding",
-    "4": "sped",
-    "5": "speeds"
-  },
+  {"1": "speed", "2": "sped", "3": "speeding", "4": "sped", "5": "speeds"},
   {
     "1": "spell",
     "2": "spelled",
@@ -5968,13 +3868,7 @@ final List _verbs = [
     "4": "spelled",
     "5": "spells"
   },
-  {
-    "1": "spend",
-    "2": "spent",
-    "3": "spending",
-    "4": "spent",
-    "5": "spends"
-  },
+  {"1": "spend", "2": "spent", "3": "spending", "4": "spent", "5": "spends"},
   {
     "1": "spill",
     "2": "spilled",
@@ -5982,27 +3876,9 @@ final List _verbs = [
     "4": "spilled",
     "5": "spills"
   },
-  {
-    "1": "spin",
-    "2": "spun",
-    "3": "spinning",
-    "4": "spun",
-    "5": "spins"
-  },
-  {
-    "1": "spit",
-    "2": "spitted",
-    "3": "spitting",
-    "4": "spitted",
-    "5": "spits"
-  },
-  {
-    "1": "split",
-    "2": "split",
-    "3": "splitting",
-    "4": "split",
-    "5": "splits"
-  },
+  {"1": "spin", "2": "spun", "3": "spinning", "4": "spun", "5": "spins"},
+  {"1": "spit", "2": "spitted", "3": "spitting", "4": "spitted", "5": "spits"},
+  {"1": "split", "2": "split", "3": "splitting", "4": "split", "5": "splits"},
   {
     "1": "spoil",
     "2": "spoiled",
@@ -6010,13 +3886,7 @@ final List _verbs = [
     "4": "spoiled",
     "5": "spoils"
   },
-  {
-    "1": "spot",
-    "2": "spotted",
-    "3": "spotting",
-    "4": "spotted",
-    "5": "spots"
-  },
+  {"1": "spot", "2": "spotted", "3": "spotting", "4": "spotted", "5": "spots"},
   {
     "1": "spray",
     "2": "sprayed",
@@ -6087,20 +3957,8 @@ final List _verbs = [
     "4": "stamped",
     "5": "stamps"
   },
-  {
-    "1": "stand",
-    "2": "stood",
-    "3": "standing",
-    "4": "stood",
-    "5": "stands"
-  },
-  {
-    "1": "stare",
-    "2": "stared",
-    "3": "staring",
-    "4": "stared",
-    "5": "stares"
-  },
+  {"1": "stand", "2": "stood", "3": "standing", "4": "stood", "5": "stands"},
+  {"1": "stare", "2": "stared", "3": "staring", "4": "stared", "5": "stares"},
   {
     "1": "start",
     "2": "started",
@@ -6108,20 +3966,8 @@ final List _verbs = [
     "4": "started",
     "5": "starts"
   },
-  {
-    "1": "stay",
-    "2": "stayed",
-    "3": "staying",
-    "4": "stayed",
-    "5": "stays"
-  },
-  {
-    "1": "steal",
-    "2": "stolen",
-    "3": "stealing",
-    "4": "stole",
-    "5": "steals"
-  },
+  {"1": "stay", "2": "stayed", "3": "staying", "4": "stayed", "5": "stays"},
+  {"1": "steal", "2": "stolen", "3": "stealing", "4": "stole", "5": "steals"},
   {
     "1": "steer",
     "2": "steered",
@@ -6129,13 +3975,7 @@ final List _verbs = [
     "4": "steered",
     "5": "steers"
   },
-  {
-    "1": "step",
-    "2": "stept",
-    "3": "stepping",
-    "4": "stept",
-    "5": "steps"
-  },
+  {"1": "step", "2": "stept", "3": "stepping", "4": "stept", "5": "steps"},
   {
     "1": "stick",
     "2": "sticked",
@@ -6150,27 +3990,9 @@ final List _verbs = [
     "4": "stimulated",
     "5": "stimulates"
   },
-  {
-    "1": "sting",
-    "2": "stung",
-    "3": "stinging",
-    "4": "stang",
-    "5": "stings"
-  },
-  {
-    "1": "stink",
-    "2": "stunk",
-    "3": "stinking",
-    "4": "stank",
-    "5": "stinks"
-  },
-  {
-    "1": "stir",
-    "2": "stirred",
-    "3": "stirring",
-    "4": "stirred",
-    "5": "stirs"
-  },
+  {"1": "sting", "2": "stung", "3": "stinging", "4": "stang", "5": "stings"},
+  {"1": "stink", "2": "stunk", "3": "stinking", "4": "stank", "5": "stinks"},
+  {"1": "stir", "2": "stirred", "3": "stirring", "4": "stirred", "5": "stirs"},
   {
     "1": "stitch",
     "2": "stitched",
@@ -6178,20 +4000,8 @@ final List _verbs = [
     "4": "stitched",
     "5": "stitches"
   },
-  {
-    "1": "stop",
-    "2": "stopped",
-    "3": "stopping",
-    "4": "stopped",
-    "5": "stops"
-  },
-  {
-    "1": "store",
-    "2": "stored",
-    "3": "storing",
-    "4": "stored",
-    "5": "stores"
-  },
+  {"1": "stop", "2": "stopped", "3": "stopping", "4": "stopped", "5": "stops"},
+  {"1": "store", "2": "stored", "3": "storing", "4": "stored", "5": "stores"},
   {
     "1": "strap",
     "2": "strapped",
@@ -6297,13 +4107,7 @@ final List _verbs = [
     "4": "succeeded",
     "5": "succeeds"
   },
-  {
-    "1": "suck",
-    "2": "sucked",
-    "3": "sucking",
-    "4": "sucked",
-    "5": "sucks"
-  },
+  {"1": "suck", "2": "sucked", "3": "sucking", "4": "sucked", "5": "sucks"},
   {
     "1": "suffer",
     "2": "suffered",
@@ -6318,13 +4122,7 @@ final List _verbs = [
     "4": "suggested",
     "5": "suggests"
   },
-  {
-    "1": "suit",
-    "2": "suited",
-    "3": "suiting",
-    "4": "suited",
-    "5": "suits"
-  },
+  {"1": "suit", "2": "suited", "3": "suiting", "4": "suited", "5": "suits"},
   {
     "1": "summarize",
     "2": "summarized",
@@ -6395,13 +4193,7 @@ final List _verbs = [
     "4": "sweated",
     "5": "sweats"
   },
-  {
-    "1": "sweep",
-    "2": "swept",
-    "3": "sweeping",
-    "4": "swept",
-    "5": "sweeps"
-  },
+  {"1": "sweep", "2": "swept", "3": "sweeping", "4": "swept", "5": "sweeps"},
   {
     "1": "swell",
     "2": "swollen",
@@ -6409,20 +4201,8 @@ final List _verbs = [
     "4": "swelled",
     "5": "swells"
   },
-  {
-    "1": "swim",
-    "2": "swum",
-    "3": "swimming",
-    "4": "swam",
-    "5": "swims"
-  },
-  {
-    "1": "swing",
-    "2": "swung",
-    "3": "swinging",
-    "4": "swang",
-    "5": "swings"
-  },
+  {"1": "swim", "2": "swum", "3": "swimming", "4": "swam", "5": "swims"},
+  {"1": "swing", "2": "swung", "3": "swinging", "4": "swang", "5": "swings"},
   {
     "1": "switch",
     "2": "switched",
@@ -6444,34 +4224,10 @@ final List _verbs = [
     "4": "tabulated",
     "5": "tabulate"
   },
-  {
-    "1": "take",
-    "2": "taken",
-    "3": "taking",
-    "4": "took",
-    "5": "takes"
-  },
-  {
-    "1": "talk",
-    "2": "talked",
-    "3": "talking",
-    "4": "talked",
-    "5": "talks"
-  },
-  {
-    "1": "tame",
-    "2": "tamed",
-    "3": "taming",
-    "4": "tamed",
-    "5": "tames"
-  },
-  {
-    "1": "tap",
-    "2": "tapped",
-    "3": "tapping",
-    "4": "tapped",
-    "5": "taps"
-  },
+  {"1": "take", "2": "taken", "3": "taking", "4": "took", "5": "takes"},
+  {"1": "talk", "2": "talked", "3": "talking", "4": "talked", "5": "talks"},
+  {"1": "tame", "2": "tamed", "3": "taming", "4": "tamed", "5": "tames"},
+  {"1": "tap", "2": "tapped", "3": "tapping", "4": "tapped", "5": "taps"},
   {
     "1": "target",
     "2": "targeted",
@@ -6479,34 +4235,10 @@ final List _verbs = [
     "4": "targeted",
     "5": "targets"
   },
-  {
-    "1": "taste",
-    "2": "tasted",
-    "3": "tasting",
-    "4": "tasted",
-    "5": "tastes"
-  },
-  {
-    "1": "teach",
-    "2": "taught",
-    "3": "teaching",
-    "4": "taught",
-    "5": "teaches"
-  },
-  {
-    "1": "tear",
-    "2": "torn",
-    "3": "tearing",
-    "4": "tore",
-    "5": "tears"
-  },
-  {
-    "1": "tease",
-    "2": "teased",
-    "3": "teasing",
-    "4": "teased",
-    "5": "teases"
-  },
+  {"1": "taste", "2": "tasted", "3": "tasting", "4": "tasted", "5": "tastes"},
+  {"1": "teach", "2": "taught", "3": "teaching", "4": "taught", "5": "teaches"},
+  {"1": "tear", "2": "torn", "3": "tearing", "4": "tore", "5": "tears"},
+  {"1": "tease", "2": "teased", "3": "teasing", "4": "teased", "5": "teases"},
   {
     "1": "telephone",
     "2": "telephoned",
@@ -6514,13 +4246,7 @@ final List _verbs = [
     "4": "telephoned",
     "5": "telephones"
   },
-  {
-    "1": "tell",
-    "2": "told",
-    "3": "telling",
-    "4": "told",
-    "5": "tells"
-  },
+  {"1": "tell", "2": "told", "3": "telling", "4": "told", "5": "tells"},
   {
     "1": "tempt",
     "2": "tempted",
@@ -6535,13 +4261,7 @@ final List _verbs = [
     "4": "terrified",
     "5": "terrifies"
   },
-  {
-    "1": "test",
-    "2": "tested",
-    "3": "testing",
-    "4": "tested",
-    "5": "tests"
-  },
+  {"1": "test", "2": "tested", "3": "testing", "4": "tested", "5": "tests"},
   {
     "1": "thank",
     "2": "thanked",
@@ -6549,13 +4269,7 @@ final List _verbs = [
     "4": "thanked",
     "5": "thanks"
   },
-  {
-    "1": "thaw",
-    "2": "thawed",
-    "3": "thawing",
-    "4": "thawed",
-    "5": "thaws"
-  },
+  {"1": "thaw", "2": "thawed", "3": "thawing", "4": "thawed", "5": "thaws"},
   {
     "1": "think",
     "2": "thought",
@@ -6570,13 +4284,7 @@ final List _verbs = [
     "4": "throve",
     "5": "thrives"
   },
-  {
-    "1": "throw",
-    "2": "thrown",
-    "3": "throwing",
-    "4": "threw",
-    "5": "throws"
-  },
+  {"1": "throw", "2": "thrown", "3": "throwing", "4": "threw", "5": "throws"},
   {
     "1": "thrust",
     "2": "thrusted",
@@ -6584,13 +4292,7 @@ final List _verbs = [
     "4": "thrusted",
     "5": "thrusts"
   },
-  {
-    "1": "tick",
-    "2": "ticked",
-    "3": "ticking",
-    "4": "ticked",
-    "5": "ticks"
-  },
+  {"1": "tick", "2": "ticked", "3": "ticking", "4": "ticked", "5": "ticks"},
   {
     "1": "tickle",
     "2": "tickled",
@@ -6598,34 +4300,10 @@ final List _verbs = [
     "4": "tickled",
     "5": "tickles"
   },
-  {
-    "1": "tie",
-    "2": "tied",
-    "3": "tying",
-    "4": "tied",
-    "5": "ties"
-  },
-  {
-    "1": "time",
-    "2": "timed",
-    "3": "timing",
-    "4": "timed",
-    "5": "times"
-  },
-  {
-    "1": "tip",
-    "2": "tipped",
-    "3": "tipping",
-    "4": "tipped",
-    "5": "tips"
-  },
-  {
-    "1": "tire",
-    "2": "tired",
-    "3": "tiring",
-    "4": "tired",
-    "5": "tires"
-  },
+  {"1": "tie", "2": "tied", "3": "tying", "4": "tied", "5": "ties"},
+  {"1": "time", "2": "timed", "3": "timing", "4": "timed", "5": "times"},
+  {"1": "tip", "2": "tipped", "3": "tipping", "4": "tipped", "5": "tips"},
+  {"1": "tire", "2": "tired", "3": "tiring", "4": "tired", "5": "tires"},
   {
     "1": "touch",
     "2": "touched",
@@ -6633,34 +4311,10 @@ final List _verbs = [
     "4": "touched",
     "5": "touches"
   },
-  {
-    "1": "tour",
-    "2": "toured",
-    "3": "touring",
-    "4": "toured",
-    "5": "tours"
-  },
-  {
-    "1": "tow",
-    "2": "towed",
-    "3": "towing",
-    "4": "towed",
-    "5": "tows"
-  },
-  {
-    "1": "trace",
-    "2": "traced",
-    "3": "tracing",
-    "4": "traced",
-    "5": "traces"
-  },
-  {
-    "1": "trade",
-    "2": "traded",
-    "3": "trading",
-    "4": "traded",
-    "5": "trades"
-  },
+  {"1": "tour", "2": "toured", "3": "touring", "4": "toured", "5": "tours"},
+  {"1": "tow", "2": "towed", "3": "towing", "4": "towed", "5": "tows"},
+  {"1": "trace", "2": "traced", "3": "tracing", "4": "traced", "5": "traces"},
+  {"1": "trade", "2": "traded", "3": "trading", "4": "traded", "5": "trades"},
   {
     "1": "train",
     "2": "trained",
@@ -6703,13 +4357,7 @@ final List _verbs = [
     "4": "transported",
     "5": "transports"
   },
-  {
-    "1": "trap",
-    "2": "trapped",
-    "3": "trapping",
-    "4": "trapped",
-    "5": "traps"
-  },
+  {"1": "trap", "2": "trapped", "3": "trapping", "4": "trapped", "5": "traps"},
   {
     "1": "travel",
     "2": "travelled",
@@ -6717,13 +4365,7 @@ final List _verbs = [
     "4": "travelled",
     "5": "travels"
   },
-  {
-    "1": "tread",
-    "2": "trodden",
-    "3": "treading",
-    "4": "trod",
-    "5": "treads"
-  },
+  {"1": "tread", "2": "trodden", "3": "treading", "4": "trod", "5": "treads"},
   {
     "1": "treat",
     "2": "treated",
@@ -6745,20 +4387,8 @@ final List _verbs = [
     "4": "tricked",
     "5": "tricks"
   },
-  {
-    "1": "trip",
-    "2": "tripped",
-    "3": "tripping",
-    "4": "tripped",
-    "5": "trips"
-  },
-  {
-    "1": "trot",
-    "2": "trotted",
-    "3": "trotting",
-    "4": "trotted",
-    "5": "trots"
-  },
+  {"1": "trip", "2": "tripped", "3": "tripping", "4": "tripped", "5": "trips"},
+  {"1": "trot", "2": "trotted", "3": "trotting", "4": "trotted", "5": "trots"},
   {
     "1": "trouble",
     "2": "troubled",
@@ -6773,20 +4403,8 @@ final List _verbs = [
     "4": "trusted",
     "5": "trusts"
   },
-  {
-    "1": "try",
-    "2": "tried",
-    "3": "trying",
-    "4": "tried",
-    "5": "tries"
-  },
-  {
-    "1": "tug",
-    "2": "tugged",
-    "3": "tugging",
-    "4": "tugged",
-    "5": "tugs"
-  },
+  {"1": "try", "2": "tried", "3": "trying", "4": "tried", "5": "tries"},
+  {"1": "tug", "2": "tugged", "3": "tugging", "4": "tugged", "5": "tugs"},
   {
     "1": "tumble",
     "2": "tumbled",
@@ -6794,13 +4412,7 @@ final List _verbs = [
     "4": "tumbled",
     "5": "tumbles"
   },
-  {
-    "1": "turn",
-    "2": "turned",
-    "3": "turning",
-    "4": "turned",
-    "5": "turns"
-  },
+  {"1": "turn", "2": "turned", "3": "turning", "4": "turned", "5": "turns"},
   {
     "1": "tutor",
     "2": "tutored",
@@ -6857,13 +4469,7 @@ final List _verbs = [
     "4": "unified",
     "5": "unifies"
   },
-  {
-    "1": "unite",
-    "2": "united",
-    "3": "uniting",
-    "4": "united",
-    "5": "unites"
-  },
+  {"1": "unite", "2": "united", "3": "uniting", "4": "united", "5": "unites"},
   {
     "1": "unlock",
     "2": "unlocked",
@@ -6899,20 +4505,8 @@ final List _verbs = [
     "4": "upheld",
     "5": "upholds"
   },
-  {
-    "1": "upset",
-    "2": "upset",
-    "3": "upsetting",
-    "4": "upset",
-    "5": "upsets"
-  },
-  {
-    "1": "use",
-    "2": "used",
-    "3": "using",
-    "4": "used",
-    "5": "uses"
-  },
+  {"1": "upset", "2": "upset", "3": "upsetting", "4": "upset", "5": "upsets"},
+  {"1": "use", "2": "used", "3": "using", "4": "used", "5": "uses"},
   {
     "1": "utilize",
     "2": "utilized",
@@ -6934,13 +4528,7 @@ final List _verbs = [
     "4": "verified",
     "5": "verifies"
   },
-  {
-    "1": "vex",
-    "2": "vexed",
-    "3": "vexing",
-    "4": "vexed",
-    "5": "vexes"
-  },
+  {"1": "vex", "2": "vexed", "3": "vexing", "4": "vexed", "5": "vexes"},
   {
     "1": "visit",
     "2": "visited",
@@ -6948,34 +4536,10 @@ final List _verbs = [
     "4": "visited",
     "5": "visits"
   },
-  {
-    "1": "wail",
-    "2": "wailed",
-    "3": "wailing",
-    "4": "wailed",
-    "5": "wails"
-  },
-  {
-    "1": "wait",
-    "2": "waited",
-    "3": "waiting",
-    "4": "waited",
-    "5": "waits"
-  },
-  {
-    "1": "wake",
-    "2": "woken",
-    "3": "waking",
-    "4": "woke",
-    "5": "wakes"
-  },
-  {
-    "1": "walk",
-    "2": "walked",
-    "3": "walking",
-    "4": "walked",
-    "5": "walks"
-  },
+  {"1": "wail", "2": "wailed", "3": "wailing", "4": "wailed", "5": "wails"},
+  {"1": "wait", "2": "waited", "3": "waiting", "4": "waited", "5": "waits"},
+  {"1": "wake", "2": "woken", "3": "waking", "4": "woke", "5": "wakes"},
+  {"1": "walk", "2": "walked", "3": "walking", "4": "walked", "5": "walks"},
   {
     "1": "wander",
     "2": "wandered",
@@ -6983,41 +4547,11 @@ final List _verbs = [
     "4": "wandered",
     "5": "wanders"
   },
-  {
-    "1": "want",
-    "2": "wanted",
-    "3": "wanting",
-    "4": "wanted",
-    "5": "wants"
-  },
-  {
-    "1": "warm",
-    "2": "warmed",
-    "3": "warming",
-    "4": "warmed",
-    "5": "warms"
-  },
-  {
-    "1": "warn",
-    "2": "warned",
-    "3": "warning",
-    "4": "warned",
-    "5": "warns"
-  },
-  {
-    "1": "wash",
-    "2": "washed",
-    "3": "washing",
-    "4": "washed",
-    "5": "washes"
-  },
-  {
-    "1": "waste",
-    "2": "wasted",
-    "3": "wasting",
-    "4": "wasted",
-    "5": "wastes"
-  },
+  {"1": "want", "2": "wanted", "3": "wanting", "4": "wanted", "5": "wants"},
+  {"1": "warm", "2": "warmed", "3": "warming", "4": "warmed", "5": "warms"},
+  {"1": "warn", "2": "warned", "3": "warning", "4": "warned", "5": "warns"},
+  {"1": "wash", "2": "washed", "3": "washing", "4": "washed", "5": "washes"},
+  {"1": "waste", "2": "wasted", "3": "wasting", "4": "wasted", "5": "wastes"},
   {
     "1": "watch",
     "2": "watched",
@@ -7032,34 +4566,10 @@ final List _verbs = [
     "4": "watered",
     "5": "waters"
   },
-  {
-    "1": "wave",
-    "2": "waved",
-    "3": "waving",
-    "4": "waved",
-    "5": "waves"
-  },
-  {
-    "1": "wear",
-    "2": "worn",
-    "3": "wearing",
-    "4": "wore",
-    "5": "wears"
-  },
-  {
-    "1": "weave",
-    "2": "woven",
-    "3": "weaving",
-    "4": "wove",
-    "5": "weaves"
-  },
-  {
-    "1": "weep",
-    "2": "wept",
-    "3": "weeping",
-    "4": "wept",
-    "5": "weeps"
-  },
+  {"1": "wave", "2": "waved", "3": "waving", "4": "waved", "5": "waves"},
+  {"1": "wear", "2": "worn", "3": "wearing", "4": "wore", "5": "wears"},
+  {"1": "weave", "2": "woven", "3": "weaving", "4": "wove", "5": "weaves"},
+  {"1": "weep", "2": "wept", "3": "weeping", "4": "wept", "5": "weeps"},
   {
     "1": "weigh",
     "2": "weighed",
@@ -7074,27 +4584,9 @@ final List _verbs = [
     "4": "welcomed",
     "5": "welcomes"
   },
-  {
-    "1": "wet",
-    "2": "wet",
-    "3": "wetting",
-    "4": "wet",
-    "5": "wets"
-  },
-  {
-    "1": "whine",
-    "2": "whined",
-    "3": "whining",
-    "4": "whined",
-    "5": "whines"
-  },
-  {
-    "1": "whip",
-    "2": "whipped",
-    "3": "whipping",
-    "4": "whipped",
-    "5": "whips"
-  },
+  {"1": "wet", "2": "wet", "3": "wetting", "4": "wet", "5": "wets"},
+  {"1": "whine", "2": "whined", "3": "whining", "4": "whined", "5": "whines"},
+  {"1": "whip", "2": "whipped", "3": "whipping", "4": "whipped", "5": "whips"},
   {
     "1": "whirl",
     "2": "whirled",
@@ -7116,41 +4608,11 @@ final List _verbs = [
     "4": "whistled",
     "5": "whistles"
   },
-  {
-    "1": "win",
-    "2": "won",
-    "3": "winning",
-    "4": "won",
-    "5": "wins"
-  },
-  {
-    "1": "wind",
-    "2": "winded",
-    "3": "winding",
-    "4": "winded",
-    "5": "winds"
-  },
-  {
-    "1": "wink",
-    "2": "winked",
-    "3": "winking",
-    "4": "winked",
-    "5": "winks"
-  },
-  {
-    "1": "wipe",
-    "2": "wiped",
-    "3": "wiping",
-    "4": "wiped",
-    "5": "wipes"
-  },
-  {
-    "1": "wish",
-    "2": "wished",
-    "3": "wishing",
-    "4": "wished",
-    "5": "wishes"
-  },
+  {"1": "win", "2": "won", "3": "winning", "4": "won", "5": "wins"},
+  {"1": "wind", "2": "winded", "3": "winding", "4": "winded", "5": "winds"},
+  {"1": "wink", "2": "winked", "3": "winking", "4": "winked", "5": "winks"},
+  {"1": "wipe", "2": "wiped", "3": "wiping", "4": "wiped", "5": "wipes"},
+  {"1": "wish", "2": "wished", "3": "wishing", "4": "wished", "5": "wishes"},
   {
     "1": "withdraw",
     "2": "withdrawn",
@@ -7186,13 +4648,7 @@ final List _verbs = [
     "4": "wondered",
     "5": "wonders"
   },
-  {
-    "1": "work",
-    "2": "worked",
-    "3": "working",
-    "4": "worked",
-    "5": "works"
-  },
+  {"1": "work", "2": "worked", "3": "working", "4": "worked", "5": "works"},
   {
     "1": "worry",
     "2": "worried",
@@ -7200,13 +4656,7 @@ final List _verbs = [
     "4": "worried",
     "5": "worries"
   },
-  {
-    "1": "wrap",
-    "2": "wrapped",
-    "3": "wrapping",
-    "4": "wrapped",
-    "5": "wraps"
-  },
+  {"1": "wrap", "2": "wrapped", "3": "wrapping", "4": "wrapped", "5": "wraps"},
   {
     "1": "wreck",
     "2": "wrecked",
@@ -7228,48 +4678,12 @@ final List _verbs = [
     "4": "wriggled",
     "5": "wriggles"
   },
-  {
-    "1": "wring",
-    "2": "wrung",
-    "3": "wringing",
-    "4": "wrang",
-    "5": "wrings"
-  },
-  {
-    "1": "write",
-    "2": "archaic",
-    "3": "writing",
-    "4": "wrote",
-    "5": "writes"
-  },
-  {
-    "1": "yawn",
-    "2": "yawned",
-    "3": "yawning",
-    "4": "yawned",
-    "5": "yawns"
-  },
-  {
-    "1": "yell",
-    "2": "yelled",
-    "3": "yelling",
-    "4": "yelled",
-    "5": "yells"
-  },
-  {
-    "1": "zip",
-    "2": "zipped",
-    "3": "zipping",
-    "4": "zipped",
-    "5": "zips"
-  },
-  {
-    "1": "zoom",
-    "2": "zoomed",
-    "3": "zooming",
-    "4": "zoomed",
-    "5": "zooms"
-  }
+  {"1": "wring", "2": "wrung", "3": "wringing", "4": "wrang", "5": "wrings"},
+  {"1": "write", "2": "archaic", "3": "writing", "4": "wrote", "5": "writes"},
+  {"1": "yawn", "2": "yawned", "3": "yawning", "4": "yawned", "5": "yawns"},
+  {"1": "yell", "2": "yelled", "3": "yelling", "4": "yelled", "5": "yells"},
+  {"1": "zip", "2": "zipped", "3": "zipping", "4": "zipped", "5": "zips"},
+  {"1": "zoom", "2": "zoomed", "3": "zooming", "4": "zoomed", "5": "zooms"}
 ];
 
-List<Map<String,String>> get verbs => _verbs;
+List<Map<String, String>> get verbs => _verbs;
