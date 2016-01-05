@@ -1,15 +1,17 @@
 body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: #FAFAFA;
-	font-size: 15px;
+	background-color: #F5F5F5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	color: #616161;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .toolbar {
 	background-color: #00796B;
-	padding: 10px 0px;
+	padding: 13px 0;
 	display: flex;
 }
 

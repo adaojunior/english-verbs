@@ -23,7 +23,7 @@ import 'dart:html' show KeyboardEvent, InputElement;
           margin: auto;
           background-color:rgba(255,255,255,0.1);
           border-radius: 2px;
-          padding-left: 20px;
+          padding-left: 15px;
           display: flex;
           flex-direction: row;
         }
@@ -42,7 +42,7 @@ import 'dart:html' show KeyboardEvent, InputElement;
         .search-container .search-icon{
           height: 24px;
           width: 24px;
-          margin-top: 6px;
+          margin-top: 7px;
           margin-right: 10px;
         }
         .search-input{
