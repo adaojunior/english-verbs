@@ -52,20 +52,21 @@ class ConjugationView {
   }
 
   _boot() {
+    String search = _params.get('verb').replaceAll('%20',' ');
     try {
-      _conjugation = _conjugator.find(_params.get('verb'));
+      _conjugation = _conjugator.find(search);
       this.infinitive = _conjugation.infinitive;
       tense = Tense.Simple;
       this._analytics.sendEvent('Page', 'vizualization',
-          label: _params.get('verb'), value: 1);
+          label: search, value: 1);
     } catch (e) {
       _router.navigate([
         'VerbNotFoundView',
-        {'search': _params.get('verb')}
+        {'search': search}
       ]);
       this
           ._analytics
-          .sendEvent('Page', 'not-found', label: _params.get('verb'), value: 1);
+          .sendEvent('Page', 'not-found', label: search, value: 1);
     }
   }
 }
