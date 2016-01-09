@@ -24,6 +24,7 @@ class VerbNotFoundView {
       this.message =
           "Your search - ${params.get('search')} -did not match any verbs.";
     }
-    analytics.sendScreenView('PageNotFound::${params.get('search')}');
+    analytics.sendScreenView('PageNotFound');
+    analytics.sendEvent('Page', 'not-found', label: params.get('search'), value: 1);
   }
 }

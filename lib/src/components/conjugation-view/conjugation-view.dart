@@ -36,7 +36,7 @@ class ConjugationView {
   set tense(Tense tense) {
     this._tense = tense;
     this._data = _conjugation.getConjugationTable(tense);
-    this._analytics.sendEvent(_params.get('verb'), 'change-tense',
+    this._analytics.sendEvent('Tense', 'change',
         label: tense.toString(), value: 1);
   }
 
@@ -64,9 +64,6 @@ class ConjugationView {
         'VerbNotFoundView',
         {'search': search}
       ]);
-      this
-          ._analytics
-          .sendEvent('Page', 'not-found', label: search, value: 1);
     }
   }
 }
