@@ -22,7 +22,7 @@ class VerbNotFoundView {
   VerbNotFoundView(RouteParams params, Analytics analytics) {
     if (params.params.containsKey('search')) {
       this.message =
-          "Your search - ${params.get('search')} -did not match any verbs.";
+          "Your search - ${params.get('search')} - did not match any verbs.";
     }
     analytics.sendScreenView('PageNotFound');
     analytics.sendEvent('Page', 'not-found', label: params.get('search'), value: 1);

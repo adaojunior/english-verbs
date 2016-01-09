@@ -11,7 +11,7 @@ import 'package:usage/usage_html.dart' show AnalyticsHtml, Analytics;
 
 const String id = 'UA-71715642-4';
 const String name = 'English-Verbs';
-const String version = '0.3.1';
+const String version = '0.3.2';
 
 main() => bootstrap(AppComponent, [
       ROUTER_PROVIDERS,
