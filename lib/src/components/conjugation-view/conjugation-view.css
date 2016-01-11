@@ -31,6 +31,22 @@
     }
 }
 
+.large-table {
+    display: block;
+}
+.small-table{
+    display: none;
+}
+
+@media (max-width: 600px)  {
+    .large-table {
+        display: none;
+    }
+    .small-table{
+        display: block;
+    }
+}
+
 .tabs::-webkit-scrollbar {
     display: none;
 }

@@ -19,7 +19,6 @@ class ConjugationView {
   String infinitive;
   Tense _tense;
   Conjugation _conjugation;
-  bool isSmallScreen = false;
   Analytics _analytics;
 
   List tenses = [

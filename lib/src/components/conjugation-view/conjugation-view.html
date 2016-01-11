@@ -1,4 +1,3 @@
-<media-query query="(max-width: 600px)" [(matches)]="isSmallScreen"></media-query>
 <div>
     <div class="content-header">
         <h1>To {{infinitive}}</h1>
@@ -8,8 +7,8 @@
             </li>
         </ul>
     </div>
-    <section class="container">
-        <table *ngIf="!isSmallScreen">
+    <section class="container large-table">
+        <table>
             <thead>
                 <tr>
                     <th>Present</th>
@@ -26,12 +25,14 @@
                 </tr>
             </tbody>
         </table>
-        <table *ngIf="isSmallScreen">
+    </section>
+    <section class="container small-table">
+        <table>
             <thead>
-                <tr>
-                    <th width="50%">Present</th>
-                    <th width="50%">Past</th>
-                </tr>
+            <tr>
+                <th width="50%">Present</th>
+                <th width="50%">Past</th>
+            </tr>
             </thead>
             <tbody>
             <tr  *ngFor="#d of data">
@@ -40,7 +41,7 @@
             </tr>
             </tbody>
         </table>
-        <table *ngIf="isSmallScreen" style="margin-top: 15px;">
+        <table style="margin-top: 15px;">
             <thead>
             <tr>
                 <th width="50%">Future</th>
