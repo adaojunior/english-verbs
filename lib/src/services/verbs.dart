@@ -1464,7 +1464,7 @@ final List _verbs = [
   {"1": "dust", "2": "dusted", "3": "dusting", "4": "dusted", "5": "dusts"},
   {"1": "dwell", "2": "dwelt", "3": "dwelling", "4": "dwelt", "5": "dwells"},
   {"1": "earn", "2": "earned", "3": "earning", "4": "earned", "5": "earns"},
-  {"1": "eat", "2": "eaten", "3": "eating", "4": "ate", "5": "eats"},
+  {"1": "eat", "2": "ate", "3": "eating", "4": "eaten", "5": "eats"},
   {
     "1": "educate",
     "2": "educated",
