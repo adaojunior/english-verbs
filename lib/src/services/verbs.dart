@@ -2741,6 +2741,13 @@ final List _verbs = [
     "5": "originates"
   },
   {
+    "1": "outline",
+    "2": "outlined",
+    "3": "outlining",
+    "4": "outlined",
+    "5": "outlines"
+  },
+  {
     "1": "overcome",
     "2": "overcome",
     "3": "overcoming",
