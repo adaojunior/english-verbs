@@ -9,6 +9,6 @@ dependencies:
 dev_dependencies:
   pub_serve_rewrites: ^0.0.1
 transformers:
-  - angular2:
-      entry_points: web/main.dart
-  - dart_to_js_script_rewriter
+- angular2:
+    entry_points: web/main.dart
+- dart_to_js_script_rewriter
