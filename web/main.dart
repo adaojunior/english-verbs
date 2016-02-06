@@ -1,5 +1,5 @@
 import 'package:angular2/bootstrap.dart';
-import 'package:english-verbs/app.dart';
+import 'package:english_verbs/app.dart';
 import 'package:angular2/angular2.dart' show provide;
 import 'package:angular2/router.dart'
     show
@@ -11,7 +11,7 @@ import 'package:usage/usage_html.dart' show AnalyticsHtml, Analytics;
 
 const String id = 'UA-71715642-4';
 const String name = 'English-Verbs';
-const String version = '0.3.5';
+const String version = '0.3.6';
 
 main() => bootstrap(AppComponent, [
       ROUTER_PROVIDERS,

@@ -1,14 +1,14 @@
 import 'package:angular2/angular2.dart' show Component, NgFor, NgClass, NgIf;
 import 'package:angular2/router.dart' show RouteParams, Router;
-import 'package:english-verbs/app.services.dart'
+import 'package:english_verbs/app.services.dart'
     show ConjugationService, Conjugation, Tense, Person, Plurality, Time;
 import 'package:usage/usage.dart' show Analytics;
 import 'package:ng_mediaquery/ng_mediaquery.dart';
 
 @Component(
-    selector: 'conjugation-view',
-    templateUrl: 'conjugation-view.html',
-    styleUrls: const ['conjugation-view.css'],
+    selector: 'conjugation_view',
+    templateUrl: 'conjugation_view.html',
+    styleUrls: const ['conjugation_view.css'],
     directives: const [NgFor, NgClass, NgIf, MediaQuery],
     providers: const [ConjugationService])
 class ConjugationView {

@@ -2,9 +2,9 @@ import 'package:angular2/angular2.dart'
     show Component, OnInit, ViewEncapsulation;
 import 'package:angular2/router.dart'
     show RouteConfig, Route, ROUTER_DIRECTIVES, RouteParams, Router;
-import 'src/components/search-input.dart';
-import 'src/components/conjugation-view/conjugation-view.dart';
-import 'src/components/verb-not-found-view.dart';
+import 'src/components/search_input.dart';
+import 'src/components/conjugation_view/conjugation_view.dart';
+import 'src/components/verb_not_found_view.dart';
 import 'package:usage/usage.dart' show Analytics;
 import 'dart:html' show window;
 

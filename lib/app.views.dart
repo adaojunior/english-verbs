@@ -1,4 +1,4 @@
 library app.views;
 
-export 'src/components/conjugation-view/conjugation-view.dart';
-export 'src/components/verb-not-found-view.dart';
+export 'src/components/conjugation_view/conjugation_view.dart';
+export 'src/components/verb_not_found_view.dart';
