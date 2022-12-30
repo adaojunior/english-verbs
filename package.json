@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -22,7 +24,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "postcss": "^8.4.20",
+    "prettier": "2.8.1",
     "tailwindcss": "^3.2.4"
   }
 }
