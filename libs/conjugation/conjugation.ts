@@ -54,11 +54,20 @@ export abstract class Conjugation {
     plurality: Plurality
   ): string
 
-  getTable(tense: Tense) {
-    const times = [Time.Present, Time.Past, Time.Future, Time.Conditional]
-    return structure.map((e) =>
-      times.map((time) => `${e[0]} ${this.get(tense, time, e[1], e[2])}`)
+  private getRows(tense: Tense, time: Time) {
+    return structure.map(
+      ([subject, person, plurality]) =>
+        `${subject} ${this.get(tense, time, person, plurality)}`
     )
+  }
+
+  getTable(tense: Tense) {
+    return {
+      [Time.Present]: this.getRows(tense, Time.Present),
+      [Time.Past]: this.getRows(tense, Time.Past),
+      [Time.Future]: this.getRows(tense, Time.Future),
+      [Time.Conditional]: this.getRows(tense, Time.Conditional),
+    }
   }
 }
 
