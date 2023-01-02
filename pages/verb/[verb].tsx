@@ -1,5 +1,6 @@
+import { useState } from 'react'
 import { GetStaticPropsContext } from 'next'
-
+import { ConjugationTableHeader } from '@/components/ConjugationTableHeader'
 import {
   datasource,
   findVerb,
@@ -20,29 +21,38 @@ type VerbProps = {
 }
 
 export default function Verb({ data }: VerbProps) {
-  const conjugation = data.tenses[Tense.Simple]
+  const [selected, onSelect] = useState(Tense.Simple)
+  const conjugation = data.tenses[selected]
 
   return (
-    <div className="m-auto max-w-4xl p-10 px-4">
-      <div className="grid grid-cols-2 gap-4 border border-gray-300 bg-white p-10 md:grid-cols-4">
-        {[Time.Present, Time.Past, Time.Future, Time.Conditional].map(
-          (time) => (
-            <div key={time}>
-              <div className="mb-5 text-sm font-medium	uppercase text-slate-600">
-                {time}
-              </div>
+    <div>
+      <ConjugationTableHeader
+        verb={data.infinitive}
+        selected={selected}
+        onSelect={onSelect}
+      />
 
-              {conjugation[time].map((value, index) => (
-                <div
-                  key={`${time}${index}`}
-                  className="mb-5 text-sm text-gray-600"
-                >
-                  {value}
+      <div className="m-auto max-w-4xl p-10 px-4">
+        <div className="grid grid-cols-2 gap-4 border border-gray-300 bg-white p-10 md:grid-cols-4">
+          {[Time.Present, Time.Past, Time.Future, Time.Conditional].map(
+            (time) => (
+              <div key={time}>
+                <div className="mb-5 text-sm font-medium	uppercase text-slate-600">
+                  {time}
                 </div>
-              ))}
-            </div>
-          )
-        )}
+
+                {conjugation[time].map((value, index) => (
+                  <div
+                    key={`${time}${index}`}
+                    className="mb-5 text-sm text-gray-600"
+                  >
+                    {value}
+                  </div>
+                ))}
+              </div>
+            )
+          )}
+        </div>
       </div>
     </div>
   )
