@@ -23,7 +23,7 @@ export default function Verb({ data }: VerbProps) {
   const conjugation = data.tenses[Tense.Simple]
 
   return (
-    <div className="m-auto	max-w-4xl p-10 px-4">
+    <div className="m-auto max-w-4xl p-10 px-4">
       <div className="grid grid-cols-2 gap-4 border border-gray-300 bg-white p-10 md:grid-cols-4">
         {[Time.Present, Time.Past, Time.Future, Time.Conditional].map(
           (time) => (
