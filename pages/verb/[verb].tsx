@@ -71,8 +71,8 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
 }
 
 export async function getStaticPaths() {
-  const paths = datasource.map((row) => ({
-    params: { verb: row['1'] },
+  const paths = datasource.map(({ '1': verb }) => ({
+    params: { verb },
   }))
 
   return { paths, fallback: false }
