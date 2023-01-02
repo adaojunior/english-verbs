@@ -1,6 +1,7 @@
 import { datasource } from './datasource'
 
 export * from './types'
+export * from './datasource'
 export { getConjugation, Conjugation } from './conjugation'
 
 export function findVerb(search: string) {

@@ -1,15 +1,15 @@
 export enum Tense {
-  Simple,
-  Progressive,
-  Perfect,
-  PerfectProgressive,
+  Simple = 'Simple',
+  Progressive = 'Progressive',
+  Perfect = 'Perfect',
+  PerfectProgressive = 'PerfectProgressive',
 }
 
 export enum Time {
-  Present,
-  Past,
-  Future,
-  Conditional,
+  Present = 'Present',
+  Past = 'Past',
+  Future = 'Future',
+  Conditional = 'Conditional',
 }
 
 export enum Person {
