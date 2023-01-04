@@ -16,7 +16,7 @@ export function SearchInput() {
 
   const onKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter') {
-      const search = value.trim()
+      const search = value.trim().toLowerCase()
       search && router.push(`/verb/${search}`)
     }
   }
