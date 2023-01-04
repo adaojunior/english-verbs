@@ -25,6 +25,10 @@ export function useAmplitudeInit() {
       trackPageView()
     }
 
-    router.events.on('routeChangeComplete', () => trackPageView())
+    router.events.on('routeChangeComplete', trackPageView)
+
+    return () => {
+      router.events.off('routeChangeComplete', trackPageView)
+    }
   }, [])
 }
