@@ -36,7 +36,7 @@ export function SearchInput() {
       />
       <input
         className={twMerge(
-          'z-10 w-full bg-transparent pl-10 text-sm outline-0',
+          'z-10 w-full bg-transparent pl-10 text-sm outline-none',
           focused
             ? 'text-slate-800 placeholder:text-slate-800'
             : 'text-white placeholder:text-white'
