@@ -18,6 +18,7 @@ export function SearchInput() {
     if (event.key === 'Enter') {
       const search = value.trim().toLowerCase()
       search && router.push(`/verb/${search}`)
+      event.currentTarget.blur()
     }
   }
 
