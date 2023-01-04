@@ -11,6 +11,15 @@ const nextConfig = {
     disableServerWebpackPlugin: !enableSentryWebpackPlugin,
     disableClientWebpackPlugin: !enableSentryWebpackPlugin,
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/verb/be',
+        permanent: false,
+      },
+    ]
+  },
 }
 
 // Make sure adding Sentry options is the last code to run before exporting, to
