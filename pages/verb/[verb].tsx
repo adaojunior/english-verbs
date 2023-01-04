@@ -1,14 +1,15 @@
-import { ConjugationTableHeader } from '@/components/ConjugationTableHeader'
-import {
-  datasource,
-  findVerb,
-  getConjugation,
-  Tense,
-  Time,
-} from '@/libs/conjugation'
 import { GetStaticPropsContext } from 'next'
 import Head from 'next/head'
 import { useState } from 'react'
+
+import { ConjugationTableHeader } from '@/components/ConjugationTableHeader'
+import {
+  Tense,
+  Time,
+  datasource,
+  findVerb,
+  getConjugation,
+} from '@/libs/conjugation'
 
 type VerbProps = {
   data: {

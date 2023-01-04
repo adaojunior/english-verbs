@@ -1,6 +1,7 @@
-import { Tense } from '@/libs/conjugation'
 import { track } from '@amplitude/analytics-browser'
 import { twMerge } from 'tailwind-merge'
+
+import { Tense } from '@/libs/conjugation'
 
 const tabs = [
   [Tense.Simple, 'Simple'],
