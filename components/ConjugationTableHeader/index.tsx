@@ -1,5 +1,6 @@
 import { twMerge } from 'tailwind-merge'
 import { Tense } from '@/libs/conjugation'
+import { track } from '@amplitude/analytics-browser'
 
 const tabs = [
   [Tense.Simple, 'Simple'],
@@ -46,7 +47,18 @@ export function ConjugationTableHeader({
   return (
     <div className="bg-teal-600 text-white">
       <div className="py-4 text-center text-4xl">To {verb}</div>
-      <Tabs selected={selected} onSelect={onSelect} />
+      <Tabs
+        selected={selected}
+        onSelect={(value) => {
+          onSelect(value)
+          track('Select Verb Tense Tab', {
+            verb: verb.trim().toLowerCase(),
+            selected: value,
+            previous: selected,
+            'page url': window.location.href,
+          })
+        }}
+      />
     </div>
   )
 }

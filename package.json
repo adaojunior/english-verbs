@@ -11,6 +11,7 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
+    "@amplitude/analytics-browser": "^1.6.7",
     "@heroicons/react": "^2.0.13",
     "@next/font": "13.1.1",
     "@sentry/nextjs": "^7.28.1",

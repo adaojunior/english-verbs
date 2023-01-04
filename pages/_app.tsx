@@ -2,8 +2,11 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Layout from '@/components/Layout'
+import { useAmplitudeInit } from '@/libs/hooks/useAmplitudeInit'
 
 export default function App({ Component, pageProps }: AppProps) {
+  useAmplitudeInit()
+
   return (
     <Layout>
       <Head>

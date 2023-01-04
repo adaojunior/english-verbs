@@ -1,3 +1,4 @@
+import { track } from '@amplitude/analytics-browser'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 import { useRouter } from 'next/router'
 import { ChangeEvent, KeyboardEvent, useState } from 'react'
@@ -19,6 +20,10 @@ export function SearchInput() {
       const search = value.trim().toLowerCase()
       search && router.push(`/verb/${search}`)
       event.currentTarget.blur()
+      track('Search Verb', {
+        query: search,
+        'page url': window.location.href,
+      })
     }
   }
 

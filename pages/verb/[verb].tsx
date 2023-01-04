@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Head from 'next/head'
 import { GetStaticPropsContext } from 'next'
 import { ConjugationTableHeader } from '@/components/ConjugationTableHeader'
 import {
@@ -26,6 +27,10 @@ export default function Verb({ data }: VerbProps) {
 
   return (
     <div>
+      <Head>
+        <title>{`Verb - To ${data.infinitive}`}</title>
+      </Head>
+
       <ConjugationTableHeader
         verb={data.infinitive}
         selected={selected}
