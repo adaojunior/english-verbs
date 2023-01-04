@@ -21,7 +21,7 @@ export function useAmplitudeInit() {
     const apiKey = process.env.NEXT_PUBLIC_AMPLITUDE_KEY
 
     if (apiKey) {
-      init(apiKey, undefined)
+      init(apiKey)
       trackPageView()
     }
 
