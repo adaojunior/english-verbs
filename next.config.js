@@ -16,7 +16,7 @@ const nextConfig = {
       {
         source: '/',
         destination: '/verb/be',
-        permanent: true,
+        permanent: false,
       },
     ]
   },
