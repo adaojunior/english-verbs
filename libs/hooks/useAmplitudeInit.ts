@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
 import { init, track } from '@amplitude/analytics-browser'
 import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
 const trackPageView = () =>
   track('Page View', {
