@@ -29,7 +29,7 @@ export function Tabs({ selected, onSelect }: TabsProps) {
             'cursor-pointer whitespace-nowrap border-b-4 py-3.5 px-6',
             key === selected
               ? 'border-pink-500 opacity-100'
-              : 'border-transparent opacity-60'
+              : 'border-transparent opacity-70'
           )}
           onClick={() => onSelect(key as Tense)}
         >
