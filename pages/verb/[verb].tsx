@@ -30,6 +30,10 @@ export default function Verb({ data }: VerbProps) {
     <div>
       <Head>
         <title>{`Verb - To ${data.infinitive}`}</title>
+        <meta
+          name="description"
+          content={`Learn how to conjugate the verb to ${data.infinitive} in all its forms. You will also find a list of all verbs and have access to tools that will you help you master English verb conjugation.`}
+        />
       </Head>
 
       <ConjugationTableHeader
