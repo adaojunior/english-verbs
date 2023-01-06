@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://verbs.pardim.com/sitemap.xml

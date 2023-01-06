@@ -21,22 +21,33 @@ type ConjugationTableHeaderProps = TabsProps & {
 
 export function Tabs({ selected, onSelect }: TabsProps) {
   return (
-    <div className="m-auto flex w-fit max-w-full overflow-x-scroll pl-4 text-xs font-medium uppercase text-white scrollbar-hide md:text-sm">
-      {tabs.map(([key, label]) => (
-        <div
-          key={key}
-          className={twMerge(
-            'cursor-pointer whitespace-nowrap border-b-4 py-3.5 px-6',
-            key === selected
-              ? 'border-pink-500 opacity-100'
-              : 'border-transparent opacity-60'
-          )}
-          onClick={() => onSelect(key as Tense)}
-        >
-          {label}
-        </div>
-      ))}
-    </div>
+    <nav
+      className="m-auto flex w-fit max-w-full overflow-x-scroll pl-4 text-xs font-medium uppercase text-white scrollbar-hide md:text-sm"
+      role="tablist"
+      aria-orientation="horizontal"
+    >
+      {tabs.map(([key, label]) => {
+        const isActive = key === selected
+        return (
+          <button
+            key={key}
+            className={twMerge(
+              'cursor-pointer whitespace-nowrap border-b-4 py-3.5 px-6',
+              isActive
+                ? 'border-pink-500 opacity-100'
+                : 'border-transparent opacity-70'
+            )}
+            onClick={() => onSelect(key as Tense)}
+            role="tab"
+            type="button"
+            aria-selected={isActive ? 'true' : 'false'}
+            tabIndex={isActive ? 0 : -1}
+          >
+            {label}
+          </button>
+        )
+      })}
+    </nav>
   )
 }
 
@@ -46,8 +57,8 @@ export function ConjugationTableHeader({
   onSelect,
 }: ConjugationTableHeaderProps) {
   return (
-    <div className="bg-teal-600 text-white">
-      <div className="py-4 text-center text-4xl">To {verb}</div>
+    <header className="bg-teal-600 text-white">
+      <h1 className="py-4 text-center text-4xl">To {verb}</h1>
       <Tabs
         selected={selected}
         onSelect={(value) => {
@@ -60,6 +71,6 @@ export function ConjugationTableHeader({
           })
         }}
       />
-    </div>
+    </header>
   )
 }

@@ -29,7 +29,11 @@ export default function Verb({ data }: VerbProps) {
   return (
     <div>
       <Head>
-        <title>{`Verb - To ${data.infinitive}`}</title>
+        <title>{`How to conjugate the verb to ${data.infinitive}`}</title>
+        <meta
+          name="description"
+          content={`Learn how to conjugate the verb to ${data.infinitive} in all its forms. You will also find a list of all verbs and have access to tools that will you help you master English verb conjugation.`}
+        />
       </Head>
 
       <ConjugationTableHeader
@@ -38,7 +42,7 @@ export default function Verb({ data }: VerbProps) {
         onSelect={onSelect}
       />
 
-      <div className="m-auto max-w-4xl p-10 px-4">
+      <main className="m-auto max-w-4xl p-10 px-4">
         <div className="grid grid-cols-2 gap-4 border border-gray-300 bg-white p-10 md:grid-cols-4">
           {[Time.Present, Time.Past, Time.Future, Time.Conditional].map(
             (time) => (
@@ -59,7 +63,7 @@ export default function Verb({ data }: VerbProps) {
             )
           )}
         </div>
-      </div>
+      </main>
     </div>
   )
 }
