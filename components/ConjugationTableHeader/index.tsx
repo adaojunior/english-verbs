@@ -21,7 +21,7 @@ type ConjugationTableHeaderProps = TabsProps & {
 
 export function Tabs({ selected, onSelect }: TabsProps) {
   return (
-    <div
+    <nav
       className="m-auto flex w-fit max-w-full overflow-x-scroll pl-4 text-xs font-medium uppercase text-white scrollbar-hide md:text-sm"
       role="tablist"
       aria-orientation="horizontal"
@@ -47,7 +47,7 @@ export function Tabs({ selected, onSelect }: TabsProps) {
           </button>
         )
       })}
-    </div>
+    </nav>
   )
 }
 
@@ -57,8 +57,8 @@ export function ConjugationTableHeader({
   onSelect,
 }: ConjugationTableHeaderProps) {
   return (
-    <div className="bg-teal-600 text-white">
-      <div className="py-4 text-center text-4xl">To {verb}</div>
+    <header className="bg-teal-600 text-white">
+      <h1 className="py-4 text-center text-4xl">To {verb}</h1>
       <Tabs
         selected={selected}
         onSelect={(value) => {
@@ -71,6 +71,6 @@ export function ConjugationTableHeader({
           })
         }}
       />
-    </div>
+    </header>
   )
 }
