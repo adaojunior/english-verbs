@@ -25,7 +25,7 @@ export function useAmplitudeInit() {
 
     if (apiKey) {
       init(apiKey, undefined, {
-        appVersion: publicRuntimeConfig.version,
+        appVersion: publicRuntimeConfig?.version,
       })
       trackPageView()
     }
