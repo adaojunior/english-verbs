@@ -1,4 +1,5 @@
 const { withSentryConfig } = require('@sentry/nextjs')
+const { version } = require('./package.json')
 
 const withPWA = require('next-pwa')({
   dest: 'public',
@@ -14,6 +15,9 @@ const nextConfig = {
     hideSourceMaps: true,
     disableServerWebpackPlugin: !enableSentryWebpackPlugin,
     disableClientWebpackPlugin: !enableSentryWebpackPlugin,
+  },
+  publicRuntimeConfig: {
+    version,
   },
   async redirects() {
     return [
