@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Layout>
       <Head>
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -33,6 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        <meta name="theme-color" content="#0F766E" />
       </Head>
       <Component {...pageProps} />
     </Layout>
