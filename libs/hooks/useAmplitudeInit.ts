@@ -1,6 +1,9 @@
 import { init, track } from '@amplitude/analytics-browser'
+import getConfig from 'next/config'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+
+const { publicRuntimeConfig } = getConfig()
 
 const trackPageView = () =>
   track('Page View', {
@@ -21,7 +24,9 @@ export function useAmplitudeInit() {
     const apiKey = process.env.NEXT_PUBLIC_AMPLITUDE_KEY
 
     if (apiKey) {
-      init(apiKey)
+      init(apiKey, undefined, {
+        appVersion: publicRuntimeConfig?.version,
+      })
       trackPageView()
     }
 
